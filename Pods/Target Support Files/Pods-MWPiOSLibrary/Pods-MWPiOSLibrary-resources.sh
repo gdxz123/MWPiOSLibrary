@@ -79,6 +79,26 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "DateTools/DateTools/DateTools.bundle"
+  install_resource "MBProgressHUD+BWMExtension/Example/MBProgressHUD+BWMExtension/MBProgressHUD+BWMExtension.xcassets"
+  install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
+fi
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "DateTools/DateTools/DateTools.bundle"
+  install_resource "MBProgressHUD+BWMExtension/Example/MBProgressHUD+BWMExtension/MBProgressHUD+BWMExtension.xcassets"
+  install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
+fi
+if [[ "$CONFIGURATION" == "QA" ]]; then
+  install_resource "DateTools/DateTools/DateTools.bundle"
+  install_resource "MBProgressHUD+BWMExtension/Example/MBProgressHUD+BWMExtension/MBProgressHUD+BWMExtension.xcassets"
+  install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
+fi
+if [[ "$CONFIGURATION" == "AdHoc" ]]; then
+  install_resource "DateTools/DateTools/DateTools.bundle"
+  install_resource "MBProgressHUD+BWMExtension/Example/MBProgressHUD+BWMExtension/MBProgressHUD+BWMExtension.xcassets"
+  install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

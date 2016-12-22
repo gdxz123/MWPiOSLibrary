@@ -6,8 +6,7 @@
 //  Copyright (c) 2016 lmule. All rights reserved.
 //
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+#import "Reachability.h"
+@interface AppDelegate : MLSOAppDelegate
 
 @end

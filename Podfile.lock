@@ -1,3 +1,98 @@
-PODFILE CHECKSUM: 20e61027c1ec9c8a5e045b0220676030565e0f87
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking-RACExtensions (0.1.8):
+    - AFNetworking (~> 2.5.3)
+    - ReactiveCocoa (~> 2.0)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - DateTools (1.7.0)
+  - FLEX (2.1.1)
+  - JSONModel (1.4.0)
+  - MBProgressHUD (0.9.2)
+  - MBProgressHUD+BWMExtension (1.0.1):
+    - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (3.1.12)
+  - MLSOAppDelegate (0.0.1)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RegExCategories (1.0)
+  - Routable (0.2.0)
+  - SDAutoLayout (2.1.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AFNetworking-RACExtensions
+  - Aspects
+  - CocoaLumberjack
+  - DateTools
+  - FLEX (~> 2.0)
+  - JSONModel
+  - MBProgressHUD
+  - MBProgressHUD+BWMExtension
+  - MJRefresh
+  - MLSOAppDelegate (~> 0.0.1)
+  - Reachability
+  - ReactiveCocoa (~> 2.5)
+  - RegExCategories (~> 1.0)
+  - Routable
+  - SDAutoLayout
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
+  JSONModel: 58fe3f8c29ff95ed94e7ee7dde87e807f5da5371
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MBProgressHUD+BWMExtension: d0603a1c0b03ef74cae6a0986d63c0bdf34bedfe
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLSOAppDelegate: 721b6f35cf63336eb7a2a2ee3fab12bbc1473ef5
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  Routable: 859984d3f1613a4139795bab45941f71ed752564
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: f6b8e9c5af1f8a41d9f92cc5478430ead3eb9624
 
 COCOAPODS: 1.0.0
