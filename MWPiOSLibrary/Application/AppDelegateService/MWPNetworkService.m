@@ -18,10 +18,10 @@ ML_EXPORT_SERVICE(MWPNetworkService)
     RACSignal *networkSignal = [[MWPNetworkStatus sharedInstance] startMonitoringReachability];
     [networkSignal subscribeNext:^(NSNumber *status) {
         if (status.boolValue == YES) {
-            NSLog(@"能上网啦");
+            //NSLog(@"能上网啦");
         }
         else {
-            NSLog(@"没网拉");
+//            NSLog(@"没网拉");
         }
     }];
     return YES;

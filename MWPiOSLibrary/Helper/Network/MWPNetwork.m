@@ -1,55 +1,69 @@
 //
-//  MWPNetwork.m
-//  MWPiOSLibrary
+//  APIClient.m
+//  MVVM
 //
-//  Created by dingrui on 2016/12/20.
-//  Copyright © 2016年 lmule. All rights reserved.
+//  Created by develop on 15/9/17.
+//  Copyright (c) 2015年 songhailiang. All rights reserved.
 //
 
 #import "MWPNetwork.h"
-#import "JSONModel.h"
+#import "MWPNetworkStatus.h"
+
+NSString * const MWPNetworkErrorDomain = kServerHost;
 
 @implementation MWPNetwork
 
-/**
- *  初始化AFHTTPRequestOperationManager对象
- *
- *  @return AFHTTPRequestOperationManager
- */
-+ (AFHTTPRequestOperationManager *)setupRequestOperationManager {
-    AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
+SHARED_INSTANCE(MWPNetwork)
+
+- (instancetype)init {
     
-    //    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
-    //    [manager.requestSerializer setValue:@"application/json; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    self = [super init];
+    if (self) {
+        AFSecurityPolicy *securityPolicy = [AFSecurityPolicy defaultPolicy];
+        securityPolicy.allowInvalidCertificates = YES;
+        self.securityPolicy = securityPolicy;
+        self.requestSerializer = [AFJSONRequestSerializer serializer];
+        
+        self.responseSerializer = [AFJSONResponseSerializer serializer];
+        NSMutableSet *acceptableContentTypes = [NSMutableSet setWithSet:self.responseSerializer.acceptableContentTypes];
+        [acceptableContentTypes addObject:@"application/json"];
+        [acceptableContentTypes addObject:@"text/plain"];
+        [acceptableContentTypes addObject:@"text/html"];
+        self.responseSerializer.acceptableContentTypes = acceptableContentTypes;
+    }
+    return self;
     
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-    
-    manager.responseSerializer = [AFJSONResponseSerializer serializer];
-    NSMutableSet *acceptableContentTypes = [NSMutableSet setWithSet:manager.responseSerializer.acceptableContentTypes];
-    [acceptableContentTypes addObject:@"application/json"];
-    [acceptableContentTypes addObject:@"text/plain"];
-    [acceptableContentTypes addObject:@"text/html"];
-    manager.responseSerializer.acceptableContentTypes = acceptableContentTypes;
-    
-    
-    return manager;
 }
 
-/**
- *  系统、设备字典
- *
- *  @return 系统、设备字典
- */
-+ (NSMutableDictionary *)setupRequestDeviceParameters {
-    NSMutableDictionary *parameters = [[NSMutableDictionary alloc]init];
++ (RACSignal *)get:(NSString *)url
+        parameters:(id)parameters
+         modelName:(NSString *)modelName {
     
-    parameters[@"app_version"] = APP_VERSION;
-    parameters[@"system_version"] = SYSTEM_VERSION;
-    parameters[@"language"] = LANGUAGE;
-    parameters[@"platform"] = PLATFORM;
-//    parameters[@"device_id"] = [MWPDevice sharedInstance].deviceUUID;
+    return [[[[[MWPNetwork sharedInstance] rac_GET:url parameters:parameters]
+             catch:^RACSignal *(NSError *error) {
+                 return [RACSignal error:error];
+             }]
+            map:^id(RACTuple *tuple) {
+                if (!tuple) {
+                    DDLogError(@"The url : %@ get empty result.", url);
+                    return [RACSignal empty];
+                }
+                return [tuple first];
+            }]
+            map:^id(id dictionary) {
+                if (!modelName) {
+                    DDLogWarn(@"You have passed empty model name for url : %@", url);
+                    return dictionary;
+                }
+                NSError *parseModelError;
+                Class clazz = NSClassFromString(modelName);
+                JSONModel *model = [[clazz alloc]initWithDictionary:dictionary error:&parseModelError];
+                if (parseModelError) {
+                    DDLogError(@"There occurs error when parsing model, the reason is : %@", parseModelError);
+                    return [RACSignal empty];
+                }
+                return model;
+            }];
     
-    return parameters;
 }
-
 @end

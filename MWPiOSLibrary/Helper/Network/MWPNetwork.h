@@ -1,15 +1,20 @@
 //
-//  MWPNetwork.h
-//  MWPiOSLibrary
+//  APIClient.h
+//  MVVM
 //
-//  Created by dingrui on 2016/12/20.
-//  Copyright © 2016年 lmule. All rights reserved.
+//  Created by develop on 15/9/17.
+//  Copyright (c) 2015年 songhailiang. All rights reserved.
 //
 
 #import "AFHTTPRequestOperationManager+RACSupport.h"
 
-NSString * const MWPNetworkErrorDomain = kServerHost;
+extern NSString * const MWPNetworkErrorDomain;
 
 @interface MWPNetwork : AFHTTPRequestOperationManager
 
++ (MWPNetwork *)sharedInstance;
+
++ (RACSignal *)get:(NSString *)url
+        parameters:(NSDictionary *)parameters
+         modelName:(NSString *)modelName;
 @end

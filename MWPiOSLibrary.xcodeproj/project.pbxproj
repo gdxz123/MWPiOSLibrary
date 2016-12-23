@@ -12,10 +12,11 @@
 		0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAC1E07AB0E00BA9120 /* MWPRootUIService.m */; };
 		0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */; };
 		0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */; };
+		0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */; };
+		0E64C3A81E0D0C7E00DE7A98 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64C3A71E0D0C7E00DE7A98 /* BaseViewModel.m */; };
+		0E64C3AB1E0D0CA100DE7A98 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64C3AA1E0D0CA100DE7A98 /* ProductListViewModel.m */; };
+		0E64C3AE1E0D0CB800DE7A98 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64C3AD1E0D0CB800DE7A98 /* ProductListViewController.m */; };
 		0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E95A07A1E02323C00CE6E66 /* MWPDDLogFormatter.m */; };
-		0EED3CE21E09217400265C1F /* MWPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EED3CE11E09217400265C1F /* MWPNetwork.m */; };
-		0EED3CEF1E0B7E9F00265C1F /* RAFNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EED3CEE1E0B7E9F00265C1F /* RAFNMainViewController.m */; };
-		0EF0F3B81E03B0A500B5F0A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F3B71E03B0A500B5F0A3 /* ViewController.m */; };
 		0FE8AF94182C5304346BCBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D360A83F31E2A2601CCAB252 /* Images.xcassets */; };
 		2DE9BC91D6B19F75D5890F12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EA1346795476457926C53D /* LaunchScreen.xib */; };
 		4CB25D197CFB75C52AC6095B /* libPods-MWPiOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60986D4491186313655295F0 /* libPods-MWPiOSLibrary.a */; };
@@ -50,15 +51,17 @@
 		0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetworkStatus.m; sourceTree = "<group>"; };
 		0E29ACB51E07C39600BA9120 /* MWPNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetworkService.h; sourceTree = "<group>"; };
 		0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetworkService.m; sourceTree = "<group>"; };
+		0E64C3A31E0D0C3900DE7A98 /* MWPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetwork.h; sourceTree = "<group>"; };
+		0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetwork.m; sourceTree = "<group>"; };
+		0E64C3A61E0D0C7E00DE7A98 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		0E64C3A71E0D0C7E00DE7A98 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		0E64C3A91E0D0CA100DE7A98 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
+		0E64C3AA1E0D0CA100DE7A98 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
+		0E64C3AC1E0D0CB800DE7A98 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		0E64C3AD1E0D0CB800DE7A98 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
 		0E95A0721E018A8B00CE6E66 /* MWPApplicationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPApplicationMacro.h; sourceTree = "<group>"; };
 		0E95A0791E02323C00CE6E66 /* MWPDDLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPDDLogFormatter.h; sourceTree = "<group>"; };
 		0E95A07A1E02323C00CE6E66 /* MWPDDLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPDDLogFormatter.m; sourceTree = "<group>"; };
-		0EED3CE01E09217400265C1F /* MWPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetwork.h; sourceTree = "<group>"; };
-		0EED3CE11E09217400265C1F /* MWPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetwork.m; sourceTree = "<group>"; };
-		0EED3CED1E0B7E9F00265C1F /* RAFNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFNMainViewController.h; sourceTree = "<group>"; };
-		0EED3CEE1E0B7E9F00265C1F /* RAFNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAFNMainViewController.m; sourceTree = "<group>"; };
-		0EF0F3B61E03B0A500B5F0A3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0EF0F3B71E03B0A500B5F0A3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11EA1346795476457926C53D /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		25FBC3579BF7A875629A3746 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2626B43C02C7ED91C67F9D5F /* Pods-MWPiOSLibrary.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPiOSLibrary.qa.xcconfig"; path = "Pods/Target Support Files/Pods-MWPiOSLibrary/Pods-MWPiOSLibrary.qa.xcconfig"; sourceTree = "<group>"; };
@@ -132,12 +135,12 @@
 		0E26F3941E065F9C000780D0 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				0E64C3A31E0D0C3900DE7A98 /* MWPNetwork.h */,
+				0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */,
 				0E26F3951E065FE6000780D0 /* MWPCookie.h */,
 				0E26F3961E065FE6000780D0 /* MWPCookie.m */,
 				0E29ACB21E07B49800BA9120 /* MWPNetworkStatus.h */,
 				0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */,
-				0EED3CE01E09217400265C1F /* MWPNetwork.h */,
-				0EED3CE11E09217400265C1F /* MWPNetwork.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -303,6 +306,8 @@
 		B3B60DFD406EBB8D42577076 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0E64C3A61E0D0C7E00DE7A98 /* BaseViewModel.h */,
+				0E64C3A71E0D0C7E00DE7A98 /* BaseViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -350,16 +355,16 @@
 		DDCB174C32A2747D5C2B4D46 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				0EED3CED1E0B7E9F00265C1F /* RAFNMainViewController.h */,
-				0EED3CEE1E0B7E9F00265C1F /* RAFNMainViewController.m */,
+				0E64C3AC1E0D0CB800DE7A98 /* ProductListViewController.h */,
+				0E64C3AD1E0D0CB800DE7A98 /* ProductListViewController.m */,
+				0E64C3A91E0D0CA100DE7A98 /* ProductListViewModel.h */,
+				0E64C3AA1E0D0CA100DE7A98 /* ProductListViewModel.m */,
 				0EF0F3A91E03869C00B5F0A3 /* AppDelegateService */,
 				25FBC3579BF7A875629A3746 /* main.m */,
 				FB400EF9838F4B7C5E3F54BE /* AppDelegate.h */,
 				0969C6A6F98B4F356500B3E3 /* AppDelegate.m */,
 				11EA1346795476457926C53D /* LaunchScreen.xib */,
 				D91E3E6543A36303AAAF1A51 /* MWPiOSLibrary-Prefix.pch */,
-				0EF0F3B61E03B0A500B5F0A3 /* ViewController.h */,
-				0EF0F3B71E03B0A500B5F0A3 /* ViewController.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -618,17 +623,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EF0F3B81E03B0A500B5F0A3 /* ViewController.m in Sources */,
-				0EED3CE21E09217400265C1F /* MWPNetwork.m in Sources */,
-				0EED3CEF1E0B7E9F00265C1F /* RAFNMainViewController.m in Sources */,
 				E35DB2756C61C4E5F2B077E6 /* main.m in Sources */,
 				0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */,
 				0E26F3971E065FE6000780D0 /* MWPCookie.m in Sources */,
 				0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */,
+				0E64C3AB1E0D0CA100DE7A98 /* ProductListViewModel.m in Sources */,
+				0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */,
+				0E64C3AE1E0D0CB800DE7A98 /* ProductListViewController.m in Sources */,
 				0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */,
 				0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */,
 				55B281850F0E0F82118CE8AC /* AppDelegate.m in Sources */,
 				0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */,
+				0E64C3A81E0D0C7E00DE7A98 /* BaseViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
