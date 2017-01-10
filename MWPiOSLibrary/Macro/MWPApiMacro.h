@@ -3,7 +3,7 @@
 
 //后端host
 #if DEBUG
-#define kServerHost @""
+#define kServerHost @"http://www.mr-hug.com"
 #else
 #define kServerHost @""
 #endif
@@ -16,3 +16,5 @@
 #define kCookieDefaultExpire 86400
 
 #pragma mark ==== API ====
+
+#define kProductList kServerHost@"/product/ajax-list"

@@ -40,28 +40,33 @@ SHARED_INSTANCE(MWPNetwork)
          modelName:(NSString *)modelName {
     
     return [[[[[MWPNetwork sharedInstance] rac_GET:url parameters:parameters]
-             catch:^RACSignal *(NSError *error) {
-                 return [RACSignal error:error];
+              catch:^RACSignal *(NSError *error) {
+                  
+                  return [RACSignal error:error];
+              }]
+             map:^id(RACTuple *tuple) {
+                 DDLogInfo(@"Request url : %@, parameters : %@", url, parameters);
+                 if (!tuple) {
+                     DDLogError(@"The url : %@ get empty result.", url);
+                     return [RACSignal empty];
+                 }
+                 return [tuple first];
              }]
-            map:^id(RACTuple *tuple) {
-                if (!tuple) {
-                    DDLogError(@"The url : %@ get empty result.", url);
-                    return [RACSignal empty];
-                }
-                return [tuple first];
-            }]
-            map:^id(id dictionary) {
+             map:^id(id dictionary) {
                 if (!modelName) {
                     DDLogWarn(@"You have passed empty model name for url : %@", url);
                     return dictionary;
                 }
                 NSError *parseModelError;
                 Class clazz = NSClassFromString(modelName);
-                JSONModel *model = [[clazz alloc]initWithDictionary:dictionary error:&parseModelError];
+                MWPBaseModel *model = [[clazz alloc]initWithDictionary:dictionary error:&parseModelError];
                 if (parseModelError) {
                     DDLogError(@"There occurs error when parsing model, the reason is : %@", parseModelError);
                     return [RACSignal empty];
                 }
+                 if (![model.errorCode isEqualToString:@"0"]) {
+                     return [RACSignal empty];
+                 }
                 return model;
             }];
     
