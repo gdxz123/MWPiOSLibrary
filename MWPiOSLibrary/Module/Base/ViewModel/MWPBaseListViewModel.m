@@ -31,16 +31,22 @@ typedef NS_ENUM(NSUInteger, MWPListViewControllerCurrentPageAction) {
     return self;
 }
 
-- (void)setupBaseViewModel {
-    
-    self.pagingUrlKey = @"page";
-    self.recordCountPerPage = 10;
-    self.currentPage = @(1);
-    self.queryDictionary = [NSMutableDictionary new];
-    
-    [RACObserve(self, currentPage) subscribeNext:^(NSNumber *currentPage) {
-        self.queryDictionary[self.pagingUrlKey] = currentPage;
-    }];
+#pragma mark ==== public method ====
+
+- (void)setupQueryDictionary:(NSDictionary *)queryDictionary {
+    for (NSString *key in queryDictionary) {
+        self.queryDictionary[key] = queryDictionary[key];
+    }
+}
+
+- (void)loadFirstPage {
+    [self resetDataItems];
+    [self.fetchDataItemsCommand execute:nil];
+}
+
+- (void)loadNextPage {
+    [self setCurrentPageByAction:MWPListViewControllerCurrentPageNext];
+    [self.fetchDataItemsCommand execute:nil];
 }
 
 #pragma mark ==== property getter && setter ====
@@ -67,22 +73,18 @@ typedef NS_ENUM(NSUInteger, MWPListViewControllerCurrentPageAction) {
     return _fetchDataItemsCommand;
 }
 
-#pragma mark ==== other method ====
+#pragma mark ==== private method ====
 
-- (void)setupQueryDictionary:(NSDictionary *)queryDictionary {
-    for (NSString *key in queryDictionary) {
-        self.queryDictionary[key] = queryDictionary[key];
-    }
-}
-
-- (void)loadFirstPage {
-    [self resetDataItems];
-    [self.fetchDataItemsCommand execute:nil];
-}
-
-- (void)loadNextPage {
-    [self setCurrentPageByAction:MWPListViewControllerCurrentPageNext];
-    [self.fetchDataItemsCommand execute:nil];
+- (void)setupBaseViewModel {
+    
+    self.pagingUrlKey = @"page";
+    self.recordCountPerPage = 10;
+    self.currentPage = @(1);
+    self.queryDictionary = [NSMutableDictionary new];
+    
+    [RACObserve(self, currentPage) subscribeNext:^(NSNumber *currentPage) {
+        self.queryDictionary[self.pagingUrlKey] = currentPage;
+    }];
 }
 
 - (void)resetDataItems {
@@ -108,5 +110,6 @@ typedef NS_ENUM(NSUInteger, MWPListViewControllerCurrentPageAction) {
     
     self.currentPage = @(page);
 }
+
 
 @end

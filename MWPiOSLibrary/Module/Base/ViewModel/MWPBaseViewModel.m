@@ -26,6 +26,12 @@
     [self.errorSignal sendCompleted];
 }
 
+#pragma mark ==== public method ====
+
+- (void)mergeErrorSignals:(NSArray<RACSignal *> *)viewModelErrorSignals {
+    [[RACSignal merge:viewModelErrorSignals] subscribe:self.errorSignal];
+}
+
 #pragma mark ==== property getter && setter ====
 
 - (RACSubject *)errorSignal {
@@ -44,12 +50,6 @@
     
     _willDisappearSignal = [RACSubject subject];
     return _willDisappearSignal;
-}
-
-#pragma mark ==== other method ====
-
-- (void)mergeErrorSignals:(NSArray<RACSignal *> *)viewModelErrorSignals {
-    [[RACSignal merge:viewModelErrorSignals] subscribe:self.errorSignal];
 }
 
 @end

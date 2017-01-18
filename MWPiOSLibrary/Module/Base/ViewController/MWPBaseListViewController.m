@@ -21,10 +21,6 @@
     [self setupView];
 }
 
-- (void)setupView {
-    [self.view addSubview:self.tableView];
-}
-
 - (void)viewDidLayoutSubviews {
     self.tableView.sd_layout
         .topEqualToView(self.view)
@@ -45,5 +41,13 @@
     _tableView.delegate = self;
     return _tableView;
 }
+
+#pragma mark ==== private method ====
+
+
+- (void)setupView {
+    [self.view addSubview:self.tableView];
+}
+
 
 @end

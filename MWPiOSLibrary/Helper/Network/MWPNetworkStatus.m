@@ -22,7 +22,6 @@ SHARED_INSTANCE(MWPNetworkStatus);
  *  开始监控网络是否可用
  */
 - (RACSignal *)startMonitoringReachability {
-    
     //使用通知中心监听kReachabilityChangedNotification通知
     [[NSNotificationCenter defaultCenter]
         addObserver:self
@@ -53,7 +52,6 @@ SHARED_INSTANCE(MWPNetworkStatus);
  *  @param notification 通知对象
  */
 - (void)reachabilityChanged:(NSNotification *)notification {
-    
     //通过通知对象获取被监听的Reachability对象
     Reachability *reachability = [notification object];
     //获取Reachability对象的网络状态
@@ -77,7 +75,6 @@ SHARED_INSTANCE(MWPNetworkStatus);
         default:
             break;
     }
-    
 }
 
 @end

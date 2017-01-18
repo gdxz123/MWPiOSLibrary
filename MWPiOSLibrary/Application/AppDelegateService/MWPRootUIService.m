@@ -9,7 +9,6 @@
 #import "MWPRootUIService.h"
 #import "ProductListViewController.h"
 
-
 @implementation MWPRootUIService
 
 ML_EXPORT_SERVICE(MWPRootUIService)
@@ -21,6 +20,7 @@ ML_EXPORT_SERVICE(MWPRootUIService)
     
 //    RAFNMainViewController* dvc = [[RAFNMainViewController alloc] init];
     ProductListViewController * dvc = [[ProductListViewController alloc] init];
+    dvc.start = YES;
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:dvc];
     window.rootViewController = nav;
     [window makeKeyAndVisible];

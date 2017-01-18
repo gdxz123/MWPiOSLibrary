@@ -23,6 +23,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    if (_start == YES) {
+        [self.navigationController pushViewController:[ProductListViewController new] animated:YES];
+    }
+    
     [self.tableView registerClass:[ProductCell class] forCellReuseIdentifier:@"cell"];
     
     [RACObserve(self.viewModel, dataItems) subscribeNext:^(id x) {
@@ -56,6 +60,7 @@
         [self.tableView.mj_header endRefreshing];
         [self.tableView.mj_footer endRefreshing];
     }];
+    [self.rac_willDeallocSignal subscribe:_viewModel.willDisappearSignal];
     
     return _viewModel;
 }

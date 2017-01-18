@@ -16,7 +16,6 @@ NSString * const MWPNetworkErrorDomain = kServerHost;
 SHARED_INSTANCE(MWPNetwork)
 
 - (instancetype)init {
-    
     self = [super init];
     if (self) {
         AFSecurityPolicy *securityPolicy = [AFSecurityPolicy defaultPolicy];
@@ -32,16 +31,13 @@ SHARED_INSTANCE(MWPNetwork)
         self.responseSerializer.acceptableContentTypes = acceptableContentTypes;
     }
     return self;
-    
 }
 
 + (RACSignal *)get:(NSString *)url
         parameters:(id)parameters
          modelName:(NSString *)modelName {
-    
     return [[[[[MWPNetwork sharedInstance] rac_GET:url parameters:parameters]
               catch:^RACSignal *(NSError *error) {
-                  
                   return [RACSignal error:error];
               }]
              map:^id(RACTuple *tuple) {
@@ -69,6 +65,5 @@ SHARED_INSTANCE(MWPNetwork)
                  }
                 return model;
             }];
-    
 }
 @end

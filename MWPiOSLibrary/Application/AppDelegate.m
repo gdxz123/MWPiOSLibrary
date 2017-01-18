@@ -12,12 +12,10 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     if ([super respondsToSelector:@selector(application:didFinishLaunchingWithOptions:)]) {
         [super application:application didFinishLaunchingWithOptions:launchOptions];
     }
     return YES;
-    
 }
 
 @end

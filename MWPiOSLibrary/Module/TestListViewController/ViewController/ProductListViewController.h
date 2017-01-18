@@ -10,6 +10,7 @@
 
 @interface ProductListViewController : MWPBaseListViewController
 
+@property (nonatomic, assign) BOOL start;
 
 @end
 

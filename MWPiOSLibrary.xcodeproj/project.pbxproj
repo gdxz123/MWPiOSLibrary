@@ -9,24 +9,25 @@
 /* Begin PBXBuildFile section */
 		0E1ADEAE1E2144DE007EEACD /* MWPToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ADEAD1E2144DE007EEACD /* MWPToast.m */; };
 		0E26F3971E065FE6000780D0 /* MWPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26F3961E065FE6000780D0 /* MWPCookie.m */; };
+		0E289EDF1E2F98E400784260 /* MWPBaseFixedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EDE1E2F98E400784260 /* MWPBaseFixedViewModel.m */; };
 		0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAA1E07AB0E00BA9120 /* MWPLogService.m */; };
 		0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAC1E07AB0E00BA9120 /* MWPRootUIService.m */; };
 		0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */; };
 		0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */; };
-		0E2D79431E1BF6A700FD245F /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D79421E1BF6A700FD245F /* ProductCell.m */; };
 		0E333BC11E18F156001A2496 /* MWPBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BC01E18F156001A2496 /* MWPBaseViewModel.m */; };
-		0E333BCF1E1901AA001A2496 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E333BC41E1901AA001A2496 /* .gitignore */; };
-		0E333BD01E1901AA001A2496 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E333BC61E1901AA001A2496 /* .gitignore */; };
-		0E333BD11E1901AA001A2496 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E333BC81E1901AA001A2496 /* .gitignore */; };
-		0E333BD71E1902AF001A2496 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BD51E1902AF001A2496 /* ProductListViewController.m */; };
-		0E333BDA1E1902BE001A2496 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BD91E1902BE001A2496 /* ProductListViewModel.m */; };
 		0E333BDD1E19047D001A2496 /* MWPBaseListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BDC1E19047D001A2496 /* MWPBaseListViewModel.m */; };
 		0E333BE01E1952A4001A2496 /* MWPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BDF1E1952A3001A2496 /* MWPBaseModel.m */; };
 		0E333BE31E1A5085001A2496 /* MWPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BE21E1A5085001A2496 /* MWPBaseViewController.m */; };
 		0E333BE61E1A50B8001A2496 /* MWPBaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BE51E1A50B8001A2496 /* MWPBaseListViewController.m */; };
 		0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */; };
+		0E701B0F1E25461200A041E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E701B001E25461200A041E1 /* .gitignore */; };
+		0E701B101E25461200A041E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E701B021E25461200A041E1 /* .gitignore */; };
+		0E701B111E25461200A041E1 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B041E25461200A041E1 /* ProductModel.m */; };
+		0E701B121E25461200A041E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E701B061E25461200A041E1 /* .gitignore */; };
+		0E701B131E25461200A041E1 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B081E25461200A041E1 /* ProductCell.m */; };
+		0E701B141E25461200A041E1 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B0B1E25461200A041E1 /* ProductListViewController.m */; };
+		0E701B151E25461200A041E1 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B0E1E25461200A041E1 /* ProductListViewModel.m */; };
 		0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E95A07A1E02323C00CE6E66 /* MWPDDLogFormatter.m */; };
-		0E9EF5311E1AA3F600486318 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9EF5301E1AA3F500486318 /* ProductModel.m */; };
 		0FE8AF94182C5304346BCBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D360A83F31E2A2601CCAB252 /* Images.xcassets */; };
 		2DE9BC91D6B19F75D5890F12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EA1346795476457926C53D /* LaunchScreen.xib */; };
 		4CB25D197CFB75C52AC6095B /* libPods-MWPiOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60986D4491186313655295F0 /* libPods-MWPiOSLibrary.a */; };
@@ -55,6 +56,8 @@
 		0E1ADEAD1E2144DE007EEACD /* MWPToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPToast.m; sourceTree = "<group>"; };
 		0E26F3951E065FE6000780D0 /* MWPCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPCookie.h; sourceTree = "<group>"; };
 		0E26F3961E065FE6000780D0 /* MWPCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPCookie.m; sourceTree = "<group>"; };
+		0E289EDD1E2F98E400784260 /* MWPBaseFixedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedViewModel.h; sourceTree = "<group>"; };
+		0E289EDE1E2F98E400784260 /* MWPBaseFixedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedViewModel.m; sourceTree = "<group>"; };
 		0E29ACA91E07AB0E00BA9120 /* MWPLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPLogService.h; sourceTree = "<group>"; };
 		0E29ACAA1E07AB0E00BA9120 /* MWPLogService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPLogService.m; sourceTree = "<group>"; };
 		0E29ACAB1E07AB0E00BA9120 /* MWPRootUIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPRootUIService.h; sourceTree = "<group>"; };
@@ -63,17 +66,8 @@
 		0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetworkStatus.m; sourceTree = "<group>"; };
 		0E29ACB51E07C39600BA9120 /* MWPNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetworkService.h; sourceTree = "<group>"; };
 		0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetworkService.m; sourceTree = "<group>"; };
-		0E2D79411E1BF6A700FD245F /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
-		0E2D79421E1BF6A700FD245F /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 		0E333BBF1E18F156001A2496 /* MWPBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseViewModel.h; sourceTree = "<group>"; };
 		0E333BC01E18F156001A2496 /* MWPBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewModel.m; sourceTree = "<group>"; };
-		0E333BC41E1901AA001A2496 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E333BC61E1901AA001A2496 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E333BC81E1901AA001A2496 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E333BD51E1902AF001A2496 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
-		0E333BD61E1902AF001A2496 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
-		0E333BD81E1902BE001A2496 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
-		0E333BD91E1902BE001A2496 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
 		0E333BDB1E19047D001A2496 /* MWPBaseListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseListViewModel.h; sourceTree = "<group>"; };
 		0E333BDC1E19047D001A2496 /* MWPBaseListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseListViewModel.m; sourceTree = "<group>"; };
 		0E333BDE1E1952A3001A2496 /* MWPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseModel.h; sourceTree = "<group>"; };
@@ -84,11 +78,20 @@
 		0E333BE51E1A50B8001A2496 /* MWPBaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseListViewController.m; sourceTree = "<group>"; };
 		0E64C3A31E0D0C3900DE7A98 /* MWPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetwork.h; sourceTree = "<group>"; };
 		0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetwork.m; sourceTree = "<group>"; };
+		0E701B001E25461200A041E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E701B021E25461200A041E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E701B031E25461200A041E1 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		0E701B041E25461200A041E1 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		0E701B061E25461200A041E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E701B071E25461200A041E1 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		0E701B081E25461200A041E1 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		0E701B0A1E25461200A041E1 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		0E701B0B1E25461200A041E1 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		0E701B0D1E25461200A041E1 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
+		0E701B0E1E25461200A041E1 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
 		0E95A0721E018A8B00CE6E66 /* MWPApplicationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPApplicationMacro.h; sourceTree = "<group>"; };
 		0E95A0791E02323C00CE6E66 /* MWPDDLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPDDLogFormatter.h; sourceTree = "<group>"; };
 		0E95A07A1E02323C00CE6E66 /* MWPDDLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPDDLogFormatter.m; sourceTree = "<group>"; };
-		0E9EF52F1E1AA3F500486318 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
-		0E9EF5301E1AA3F500486318 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
 		11EA1346795476457926C53D /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		25FBC3579BF7A875629A3746 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2626B43C02C7ED91C67F9D5F /* Pods-MWPiOSLibrary.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPiOSLibrary.qa.xcconfig"; path = "Pods/Target Support Files/Pods-MWPiOSLibrary/Pods-MWPiOSLibrary.qa.xcconfig"; sourceTree = "<group>"; };
@@ -181,60 +184,60 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		0E333BC21E1901AA001A2496 /* TestHotword */ = {
+		0E701AFE1E25461200A041E1 /* TestListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BC31E1901AA001A2496 /* DataManager */,
-				0E333BC51E1901AA001A2496 /* Model */,
-				0E333BC71E1901AA001A2496 /* View */,
-				0E333BC91E1901AA001A2496 /* ViewController */,
-				0E333BCB1E1901AA001A2496 /* ViewModel */,
+				0E701AFF1E25461200A041E1 /* DataManager */,
+				0E701B011E25461200A041E1 /* Model */,
+				0E701B051E25461200A041E1 /* View */,
+				0E701B091E25461200A041E1 /* ViewController */,
+				0E701B0C1E25461200A041E1 /* ViewModel */,
 			);
-			path = TestHotword;
+			path = TestListViewController;
 			sourceTree = "<group>";
 		};
-		0E333BC31E1901AA001A2496 /* DataManager */ = {
+		0E701AFF1E25461200A041E1 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BC41E1901AA001A2496 /* .gitignore */,
+				0E701B001E25461200A041E1 /* .gitignore */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		0E333BC51E1901AA001A2496 /* Model */ = {
+		0E701B011E25461200A041E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BC61E1901AA001A2496 /* .gitignore */,
-				0E9EF52F1E1AA3F500486318 /* ProductModel.h */,
-				0E9EF5301E1AA3F500486318 /* ProductModel.m */,
+				0E701B021E25461200A041E1 /* .gitignore */,
+				0E701B031E25461200A041E1 /* ProductModel.h */,
+				0E701B041E25461200A041E1 /* ProductModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E333BC71E1901AA001A2496 /* View */ = {
+		0E701B051E25461200A041E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BC81E1901AA001A2496 /* .gitignore */,
-				0E2D79411E1BF6A700FD245F /* ProductCell.h */,
-				0E2D79421E1BF6A700FD245F /* ProductCell.m */,
+				0E701B061E25461200A041E1 /* .gitignore */,
+				0E701B071E25461200A041E1 /* ProductCell.h */,
+				0E701B081E25461200A041E1 /* ProductCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0E333BC91E1901AA001A2496 /* ViewController */ = {
+		0E701B091E25461200A041E1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BD61E1902AF001A2496 /* ProductListViewController.h */,
-				0E333BD51E1902AF001A2496 /* ProductListViewController.m */,
+				0E701B0A1E25461200A041E1 /* ProductListViewController.h */,
+				0E701B0B1E25461200A041E1 /* ProductListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		0E333BCB1E1901AA001A2496 /* ViewModel */ = {
+		0E701B0C1E25461200A041E1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BD81E1902BE001A2496 /* ProductListViewModel.h */,
-				0E333BD91E1902BE001A2496 /* ProductListViewModel.m */,
+				0E701B0D1E25461200A041E1 /* ProductListViewModel.h */,
+				0E701B0E1E25461200A041E1 /* ProductListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -406,6 +409,8 @@
 				0E333BC01E18F156001A2496 /* MWPBaseViewModel.m */,
 				0E333BDB1E19047D001A2496 /* MWPBaseListViewModel.h */,
 				0E333BDC1E19047D001A2496 /* MWPBaseListViewModel.m */,
+				0E289EDD1E2F98E400784260 /* MWPBaseFixedViewModel.h */,
+				0E289EDE1E2F98E400784260 /* MWPBaseFixedViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -485,7 +490,7 @@
 		EEA2CBC8BE0141AE9AF161F8 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				0E333BC21E1901AA001A2496 /* TestHotword */,
+				0E701AFE1E25461200A041E1 /* TestListViewController */,
 				1B9C02FFF269AD52973E7AF9 /* Base */,
 			);
 			path = Module;
@@ -576,10 +581,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E333BD11E1901AA001A2496 /* .gitignore in Resources */,
-				0E333BD01E1901AA001A2496 /* .gitignore in Resources */,
+				0E701B121E25461200A041E1 /* .gitignore in Resources */,
+				0E701B101E25461200A041E1 /* .gitignore in Resources */,
 				2DE9BC91D6B19F75D5890F12 /* LaunchScreen.xib in Resources */,
-				0E333BCF1E1901AA001A2496 /* .gitignore in Resources */,
+				0E701B0F1E25461200A041E1 /* .gitignore in Resources */,
 				0FE8AF94182C5304346BCBAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,23 +732,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E333BE61E1A50B8001A2496 /* MWPBaseListViewController.m in Sources */,
+				0E289EDF1E2F98E400784260 /* MWPBaseFixedViewModel.m in Sources */,
+				0E701B151E25461200A041E1 /* ProductListViewModel.m in Sources */,
 				E35DB2756C61C4E5F2B077E6 /* main.m in Sources */,
 				0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */,
 				0E1ADEAE1E2144DE007EEACD /* MWPToast.m in Sources */,
 				0E333BE31E1A5085001A2496 /* MWPBaseViewController.m in Sources */,
-				0E333BDA1E1902BE001A2496 /* ProductListViewModel.m in Sources */,
-				0E2D79431E1BF6A700FD245F /* ProductCell.m in Sources */,
-				0E9EF5311E1AA3F600486318 /* ProductModel.m in Sources */,
 				0E333BDD1E19047D001A2496 /* MWPBaseListViewModel.m in Sources */,
+				0E701B141E25461200A041E1 /* ProductListViewController.m in Sources */,
 				0E26F3971E065FE6000780D0 /* MWPCookie.m in Sources */,
-				0E333BD71E1902AF001A2496 /* ProductListViewController.m in Sources */,
 				0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */,
 				0E333BE01E1952A4001A2496 /* MWPBaseModel.m in Sources */,
 				0E333BC11E18F156001A2496 /* MWPBaseViewModel.m in Sources */,
 				0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */,
+				0E701B111E25461200A041E1 /* ProductModel.m in Sources */,
 				0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */,
 				0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */,
 				55B281850F0E0F82118CE8AC /* AppDelegate.m in Sources */,
+				0E701B131E25461200A041E1 /* ProductCell.m in Sources */,
 				0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
