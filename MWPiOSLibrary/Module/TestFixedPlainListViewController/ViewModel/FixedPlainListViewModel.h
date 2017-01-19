@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 songhailiang. All rights reserved.
 //
 
-#import "MWPBaseListViewModel.h"
+#import "MWPBaseFixedPlainListViewModel.h"
 
-@interface ProductListViewModel : MWPBaseListViewModel
+@interface FixedPlainListViewModel : MWPBaseFixedPlainListViewModel
 
 @end

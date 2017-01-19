@@ -8,7 +8,7 @@
 
 #import "MWPBaseViewModel.h"
 
-@interface MWPBaseListViewModel : MWPBaseViewModel
+@interface MWPBasePlainListViewModel : MWPBaseViewModel
 
 @property (nonatomic, strong) NSMutableDictionary *queryDictionary;
 

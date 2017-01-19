@@ -9,24 +9,36 @@
 /* Begin PBXBuildFile section */
 		0E1ADEAE1E2144DE007EEACD /* MWPToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ADEAD1E2144DE007EEACD /* MWPToast.m */; };
 		0E26F3971E065FE6000780D0 /* MWPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26F3961E065FE6000780D0 /* MWPCookie.m */; };
-		0E289EDF1E2F98E400784260 /* MWPBaseFixedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EDE1E2F98E400784260 /* MWPBaseFixedViewModel.m */; };
+		0E289EFC1E30861700784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289EE51E30861700784260 /* .gitignore */; };
+		0E289EFE1E30861700784260 /* MWPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EE91E30861700784260 /* MWPBaseModel.m */; };
+		0E289F031E30861700784260 /* MWPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EF31E30861700784260 /* MWPBaseViewController.m */; };
+		0E289F071E30861700784260 /* MWPBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EFB1E30861700784260 /* MWPBaseViewModel.m */; };
+		0E289F761E30DD3300784260 /* MWPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F751E30DD3300784260 /* MWPBaseCell.m */; };
+		0E289FAE1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F791E30E09300784260 /* .gitignore */; };
+		0E289FAF1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F7B1E30E09300784260 /* .gitignore */; };
+		0E289FB01E30E09300784260 /* MWPBaseFixedPlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F7F1E30E09300784260 /* MWPBaseFixedPlainListViewController.m */; };
+		0E289FB11E30E09300784260 /* MWPBaseFixedPlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F821E30E09300784260 /* MWPBaseFixedPlainListViewModel.m */; };
+		0E289FB21E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F851E30E09300784260 /* .gitignore */; };
+		0E289FB31E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F871E30E09300784260 /* .gitignore */; };
+		0E289FB41E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F891E30E09300784260 /* .gitignore */; };
+		0E289FB51E30E09300784260 /* MWPBasePlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F8C1E30E09300784260 /* MWPBasePlainListViewController.m */; };
+		0E289FB61E30E09300784260 /* MWPBasePlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F8F1E30E09300784260 /* MWPBasePlainListViewModel.m */; };
+		0E289FB71E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F921E30E09300784260 /* .gitignore */; };
+		0E289FB81E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F941E30E09300784260 /* .gitignore */; };
+		0E289FB91E30E09300784260 /* FixedListCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F971E30E09300784260 /* FixedListCell1.m */; };
+		0E289FBA1E30E09300784260 /* FixedPlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F9A1E30E09300784260 /* FixedPlainListViewController.m */; };
+		0E289FBB1E30E09300784260 /* FixedPlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F9D1E30E09300784260 /* FixedPlainListViewModel.m */; };
+		0E289FBC1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FA01E30E09300784260 /* .gitignore */; };
+		0E289FBD1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FA21E30E09300784260 /* .gitignore */; };
+		0E289FBE1E30E09300784260 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FA41E30E09300784260 /* ProductModel.m */; };
+		0E289FBF1E30E09300784260 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FA71E30E09300784260 /* ProductCell.m */; };
+		0E289FC01E30E09300784260 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FAA1E30E09300784260 /* ProductListViewController.m */; };
+		0E289FC11E30E09300784260 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FAD1E30E09300784260 /* ProductListViewModel.m */; };
 		0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAA1E07AB0E00BA9120 /* MWPLogService.m */; };
 		0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAC1E07AB0E00BA9120 /* MWPRootUIService.m */; };
 		0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */; };
 		0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */; };
-		0E333BC11E18F156001A2496 /* MWPBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BC01E18F156001A2496 /* MWPBaseViewModel.m */; };
-		0E333BDD1E19047D001A2496 /* MWPBaseListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BDC1E19047D001A2496 /* MWPBaseListViewModel.m */; };
-		0E333BE01E1952A4001A2496 /* MWPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BDF1E1952A3001A2496 /* MWPBaseModel.m */; };
-		0E333BE31E1A5085001A2496 /* MWPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BE21E1A5085001A2496 /* MWPBaseViewController.m */; };
-		0E333BE61E1A50B8001A2496 /* MWPBaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E333BE51E1A50B8001A2496 /* MWPBaseListViewController.m */; };
 		0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */; };
-		0E701B0F1E25461200A041E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E701B001E25461200A041E1 /* .gitignore */; };
-		0E701B101E25461200A041E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E701B021E25461200A041E1 /* .gitignore */; };
-		0E701B111E25461200A041E1 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B041E25461200A041E1 /* ProductModel.m */; };
-		0E701B121E25461200A041E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E701B061E25461200A041E1 /* .gitignore */; };
-		0E701B131E25461200A041E1 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B081E25461200A041E1 /* ProductCell.m */; };
-		0E701B141E25461200A041E1 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B0B1E25461200A041E1 /* ProductListViewController.m */; };
-		0E701B151E25461200A041E1 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E701B0E1E25461200A041E1 /* ProductListViewModel.m */; };
 		0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E95A07A1E02323C00CE6E66 /* MWPDDLogFormatter.m */; };
 		0FE8AF94182C5304346BCBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D360A83F31E2A2601CCAB252 /* Images.xcassets */; };
 		2DE9BC91D6B19F75D5890F12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EA1346795476457926C53D /* LaunchScreen.xib */; };
@@ -56,8 +68,46 @@
 		0E1ADEAD1E2144DE007EEACD /* MWPToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPToast.m; sourceTree = "<group>"; };
 		0E26F3951E065FE6000780D0 /* MWPCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPCookie.h; sourceTree = "<group>"; };
 		0E26F3961E065FE6000780D0 /* MWPCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPCookie.m; sourceTree = "<group>"; };
-		0E289EDD1E2F98E400784260 /* MWPBaseFixedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedViewModel.h; sourceTree = "<group>"; };
-		0E289EDE1E2F98E400784260 /* MWPBaseFixedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedViewModel.m; sourceTree = "<group>"; };
+		0E289EE51E30861700784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289EE81E30861700784260 /* MWPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseModel.h; sourceTree = "<group>"; };
+		0E289EE91E30861700784260 /* MWPBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseModel.m; sourceTree = "<group>"; };
+		0E289EF21E30861700784260 /* MWPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseViewController.h; sourceTree = "<group>"; };
+		0E289EF31E30861700784260 /* MWPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewController.m; sourceTree = "<group>"; };
+		0E289EFA1E30861700784260 /* MWPBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseViewModel.h; sourceTree = "<group>"; };
+		0E289EFB1E30861700784260 /* MWPBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewModel.m; sourceTree = "<group>"; };
+		0E289F741E30DD3300784260 /* MWPBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseCell.h; sourceTree = "<group>"; };
+		0E289F751E30DD3300784260 /* MWPBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseCell.m; sourceTree = "<group>"; };
+		0E289F791E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F7B1E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F7E1E30E09300784260 /* MWPBaseFixedPlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedPlainListViewController.h; sourceTree = "<group>"; };
+		0E289F7F1E30E09300784260 /* MWPBaseFixedPlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedPlainListViewController.m; sourceTree = "<group>"; };
+		0E289F811E30E09300784260 /* MWPBaseFixedPlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedPlainListViewModel.h; sourceTree = "<group>"; };
+		0E289F821E30E09300784260 /* MWPBaseFixedPlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedPlainListViewModel.m; sourceTree = "<group>"; };
+		0E289F851E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F871E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F891E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F8B1E30E09300784260 /* MWPBasePlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBasePlainListViewController.h; sourceTree = "<group>"; };
+		0E289F8C1E30E09300784260 /* MWPBasePlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBasePlainListViewController.m; sourceTree = "<group>"; };
+		0E289F8E1E30E09300784260 /* MWPBasePlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBasePlainListViewModel.h; sourceTree = "<group>"; };
+		0E289F8F1E30E09300784260 /* MWPBasePlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBasePlainListViewModel.m; sourceTree = "<group>"; };
+		0E289F921E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F941E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289F961E30E09300784260 /* FixedListCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedListCell1.h; sourceTree = "<group>"; };
+		0E289F971E30E09300784260 /* FixedListCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedListCell1.m; sourceTree = "<group>"; };
+		0E289F991E30E09300784260 /* FixedPlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPlainListViewController.h; sourceTree = "<group>"; };
+		0E289F9A1E30E09300784260 /* FixedPlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPlainListViewController.m; sourceTree = "<group>"; };
+		0E289F9C1E30E09300784260 /* FixedPlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPlainListViewModel.h; sourceTree = "<group>"; };
+		0E289F9D1E30E09300784260 /* FixedPlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPlainListViewModel.m; sourceTree = "<group>"; };
+		0E289FA01E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289FA21E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289FA31E30E09300784260 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		0E289FA41E30E09300784260 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		0E289FA61E30E09300784260 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		0E289FA71E30E09300784260 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		0E289FA91E30E09300784260 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		0E289FAA1E30E09300784260 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		0E289FAC1E30E09300784260 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
+		0E289FAD1E30E09300784260 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
 		0E29ACA91E07AB0E00BA9120 /* MWPLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPLogService.h; sourceTree = "<group>"; };
 		0E29ACAA1E07AB0E00BA9120 /* MWPLogService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPLogService.m; sourceTree = "<group>"; };
 		0E29ACAB1E07AB0E00BA9120 /* MWPRootUIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPRootUIService.h; sourceTree = "<group>"; };
@@ -66,29 +116,8 @@
 		0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetworkStatus.m; sourceTree = "<group>"; };
 		0E29ACB51E07C39600BA9120 /* MWPNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetworkService.h; sourceTree = "<group>"; };
 		0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetworkService.m; sourceTree = "<group>"; };
-		0E333BBF1E18F156001A2496 /* MWPBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseViewModel.h; sourceTree = "<group>"; };
-		0E333BC01E18F156001A2496 /* MWPBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewModel.m; sourceTree = "<group>"; };
-		0E333BDB1E19047D001A2496 /* MWPBaseListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseListViewModel.h; sourceTree = "<group>"; };
-		0E333BDC1E19047D001A2496 /* MWPBaseListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseListViewModel.m; sourceTree = "<group>"; };
-		0E333BDE1E1952A3001A2496 /* MWPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseModel.h; sourceTree = "<group>"; };
-		0E333BDF1E1952A3001A2496 /* MWPBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseModel.m; sourceTree = "<group>"; };
-		0E333BE11E1A5085001A2496 /* MWPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseViewController.h; sourceTree = "<group>"; };
-		0E333BE21E1A5085001A2496 /* MWPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewController.m; sourceTree = "<group>"; };
-		0E333BE41E1A50B8001A2496 /* MWPBaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseListViewController.h; sourceTree = "<group>"; };
-		0E333BE51E1A50B8001A2496 /* MWPBaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseListViewController.m; sourceTree = "<group>"; };
 		0E64C3A31E0D0C3900DE7A98 /* MWPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPNetwork.h; sourceTree = "<group>"; };
 		0E64C3A41E0D0C3900DE7A98 /* MWPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPNetwork.m; sourceTree = "<group>"; };
-		0E701B001E25461200A041E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E701B021E25461200A041E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E701B031E25461200A041E1 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
-		0E701B041E25461200A041E1 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
-		0E701B061E25461200A041E1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E701B071E25461200A041E1 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
-		0E701B081E25461200A041E1 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
-		0E701B0A1E25461200A041E1 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
-		0E701B0B1E25461200A041E1 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
-		0E701B0D1E25461200A041E1 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
-		0E701B0E1E25461200A041E1 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
 		0E95A0721E018A8B00CE6E66 /* MWPApplicationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPApplicationMacro.h; sourceTree = "<group>"; };
 		0E95A0791E02323C00CE6E66 /* MWPDDLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPDDLogFormatter.h; sourceTree = "<group>"; };
 		0E95A07A1E02323C00CE6E66 /* MWPDDLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPDDLogFormatter.m; sourceTree = "<group>"; };
@@ -147,13 +176,6 @@
 			path = Plist;
 			sourceTree = "<group>";
 		};
-		056A5936A58D86F561551F65 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		06A4FD06F417E002C66A0991 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,60 +206,277 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		0E701AFE1E25461200A041E1 /* TestListViewController */ = {
+		0E289EE31E30861700784260 /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
-				0E701AFF1E25461200A041E1 /* DataManager */,
-				0E701B011E25461200A041E1 /* Model */,
-				0E701B051E25461200A041E1 /* View */,
-				0E701B091E25461200A041E1 /* ViewController */,
-				0E701B0C1E25461200A041E1 /* ViewModel */,
+				0E289EE41E30861700784260 /* DataManager */,
+				0E289EE61E30861700784260 /* Model */,
+				0E289EEA1E30861700784260 /* View */,
+				0E289EEC1E30861700784260 /* ViewController */,
+				0E289EF41E30861700784260 /* ViewModel */,
 			);
-			path = TestListViewController;
+			path = BaseModule;
 			sourceTree = "<group>";
 		};
-		0E701AFF1E25461200A041E1 /* DataManager */ = {
+		0E289EE41E30861700784260 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				0E701B001E25461200A041E1 /* .gitignore */,
+				0E289EE51E30861700784260 /* .gitignore */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		0E701B011E25461200A041E1 /* Model */ = {
+		0E289EE61E30861700784260 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E701B021E25461200A041E1 /* .gitignore */,
-				0E701B031E25461200A041E1 /* ProductModel.h */,
-				0E701B041E25461200A041E1 /* ProductModel.m */,
+				0E289EE81E30861700784260 /* MWPBaseModel.h */,
+				0E289EE91E30861700784260 /* MWPBaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E701B051E25461200A041E1 /* View */ = {
+		0E289EEA1E30861700784260 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E701B061E25461200A041E1 /* .gitignore */,
-				0E701B071E25461200A041E1 /* ProductCell.h */,
-				0E701B081E25461200A041E1 /* ProductCell.m */,
+				0E289F741E30DD3300784260 /* MWPBaseCell.h */,
+				0E289F751E30DD3300784260 /* MWPBaseCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0E701B091E25461200A041E1 /* ViewController */ = {
+		0E289EEC1E30861700784260 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E701B0A1E25461200A041E1 /* ProductListViewController.h */,
-				0E701B0B1E25461200A041E1 /* ProductListViewController.m */,
+				0E289EF21E30861700784260 /* MWPBaseViewController.h */,
+				0E289EF31E30861700784260 /* MWPBaseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		0E701B0C1E25461200A041E1 /* ViewModel */ = {
+		0E289EF41E30861700784260 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0E701B0D1E25461200A041E1 /* ProductListViewModel.h */,
-				0E701B0E1E25461200A041E1 /* ProductListViewModel.m */,
+				0E289EFA1E30861700784260 /* MWPBaseViewModel.h */,
+				0E289EFB1E30861700784260 /* MWPBaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E289F771E30E09300784260 /* BaseFixedPlainList */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F781E30E09300784260 /* DataManager */,
+				0E289F7A1E30E09300784260 /* Model */,
+				0E289F7C1E30E09300784260 /* View */,
+				0E289F7D1E30E09300784260 /* ViewController */,
+				0E289F801E30E09300784260 /* ViewModel */,
+			);
+			path = BaseFixedPlainList;
+			sourceTree = "<group>";
+		};
+		0E289F781E30E09300784260 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F791E30E09300784260 /* .gitignore */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		0E289F7A1E30E09300784260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F7B1E30E09300784260 /* .gitignore */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E289F7C1E30E09300784260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E289F7D1E30E09300784260 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F7E1E30E09300784260 /* MWPBaseFixedPlainListViewController.h */,
+				0E289F7F1E30E09300784260 /* MWPBaseFixedPlainListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E289F801E30E09300784260 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F811E30E09300784260 /* MWPBaseFixedPlainListViewModel.h */,
+				0E289F821E30E09300784260 /* MWPBaseFixedPlainListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E289F831E30E09300784260 /* BasePlainList */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F841E30E09300784260 /* DataManager */,
+				0E289F861E30E09300784260 /* Model */,
+				0E289F881E30E09300784260 /* View */,
+				0E289F8A1E30E09300784260 /* ViewController */,
+				0E289F8D1E30E09300784260 /* ViewModel */,
+			);
+			path = BasePlainList;
+			sourceTree = "<group>";
+		};
+		0E289F841E30E09300784260 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F851E30E09300784260 /* .gitignore */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		0E289F861E30E09300784260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F871E30E09300784260 /* .gitignore */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E289F881E30E09300784260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F891E30E09300784260 /* .gitignore */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E289F8A1E30E09300784260 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F8B1E30E09300784260 /* MWPBasePlainListViewController.h */,
+				0E289F8C1E30E09300784260 /* MWPBasePlainListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E289F8D1E30E09300784260 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F8E1E30E09300784260 /* MWPBasePlainListViewModel.h */,
+				0E289F8F1E30E09300784260 /* MWPBasePlainListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E289F901E30E09300784260 /* TestFixedPlainListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F911E30E09300784260 /* DataManager */,
+				0E289F931E30E09300784260 /* Model */,
+				0E289F951E30E09300784260 /* View */,
+				0E289F981E30E09300784260 /* ViewController */,
+				0E289F9B1E30E09300784260 /* ViewModel */,
+			);
+			path = TestFixedPlainListViewController;
+			sourceTree = "<group>";
+		};
+		0E289F911E30E09300784260 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F921E30E09300784260 /* .gitignore */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		0E289F931E30E09300784260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F941E30E09300784260 /* .gitignore */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E289F951E30E09300784260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F961E30E09300784260 /* FixedListCell1.h */,
+				0E289F971E30E09300784260 /* FixedListCell1.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E289F981E30E09300784260 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F991E30E09300784260 /* FixedPlainListViewController.h */,
+				0E289F9A1E30E09300784260 /* FixedPlainListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E289F9B1E30E09300784260 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F9C1E30E09300784260 /* FixedPlainListViewModel.h */,
+				0E289F9D1E30E09300784260 /* FixedPlainListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E289F9E1E30E09300784260 /* TestPlainListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E289F9F1E30E09300784260 /* DataManager */,
+				0E289FA11E30E09300784260 /* Model */,
+				0E289FA51E30E09300784260 /* View */,
+				0E289FA81E30E09300784260 /* ViewController */,
+				0E289FAB1E30E09300784260 /* ViewModel */,
+			);
+			path = TestPlainListViewController;
+			sourceTree = "<group>";
+		};
+		0E289F9F1E30E09300784260 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E289FA01E30E09300784260 /* .gitignore */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		0E289FA11E30E09300784260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E289FA21E30E09300784260 /* .gitignore */,
+				0E289FA31E30E09300784260 /* ProductModel.h */,
+				0E289FA41E30E09300784260 /* ProductModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E289FA51E30E09300784260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E289FA61E30E09300784260 /* ProductCell.h */,
+				0E289FA71E30E09300784260 /* ProductCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E289FA81E30E09300784260 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E289FA91E30E09300784260 /* ProductListViewController.h */,
+				0E289FAA1E30E09300784260 /* ProductListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E289FAB1E30E09300784260 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E289FAC1E30E09300784260 /* ProductListViewModel.h */,
+				0E289FAD1E30E09300784260 /* ProductListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -269,27 +508,6 @@
 				0E29ACB61E07C39600BA9120 /* MWPNetworkService.m */,
 			);
 			path = AppDelegateService;
-			sourceTree = "<group>";
-		};
-		1B7B14300522E06596B8DB5A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0E333BDE1E1952A3001A2496 /* MWPBaseModel.h */,
-				0E333BDF1E1952A3001A2496 /* MWPBaseModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1B9C02FFF269AD52973E7AF9 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				1B7B14300522E06596B8DB5A /* Model */,
-				CB1F9559CBDD81D45393317A /* DataManager */,
-				B3B60DFD406EBB8D42577076 /* ViewModel */,
-				ECD80AE62A9A9037FE98482C /* ViewController */,
-				056A5936A58D86F561551F65 /* View */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		1F94BE138E32BB8A1CB1A01F /* iOS */ = {
@@ -402,19 +620,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		B3B60DFD406EBB8D42577076 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				0E333BBF1E18F156001A2496 /* MWPBaseViewModel.h */,
-				0E333BC01E18F156001A2496 /* MWPBaseViewModel.m */,
-				0E333BDB1E19047D001A2496 /* MWPBaseListViewModel.h */,
-				0E333BDC1E19047D001A2496 /* MWPBaseListViewModel.m */,
-				0E289EDD1E2F98E400784260 /* MWPBaseFixedViewModel.h */,
-				0E289EDE1E2F98E400784260 /* MWPBaseFixedViewModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		B9286C222C9DFE08D782D18E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,13 +641,6 @@
 				BEC645320DC37890DAC9AE22 /* UnitTests-Prefix.pch */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		CB1F9559CBDD81D45393317A /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataManager;
 			sourceTree = "<group>";
 		};
 		D5CE279857A5AA8DCC51584C /* Helper */ = {
@@ -476,22 +674,14 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		ECD80AE62A9A9037FE98482C /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E333BE11E1A5085001A2496 /* MWPBaseViewController.h */,
-				0E333BE21E1A5085001A2496 /* MWPBaseViewController.m */,
-				0E333BE41E1A50B8001A2496 /* MWPBaseListViewController.h */,
-				0E333BE51E1A50B8001A2496 /* MWPBaseListViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		EEA2CBC8BE0141AE9AF161F8 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				0E701AFE1E25461200A041E1 /* TestListViewController */,
-				1B9C02FFF269AD52973E7AF9 /* Base */,
+				0E289F771E30E09300784260 /* BaseFixedPlainList */,
+				0E289F831E30E09300784260 /* BasePlainList */,
+				0E289F901E30E09300784260 /* TestFixedPlainListViewController */,
+				0E289F9E1E30E09300784260 /* TestPlainListViewController */,
+				0E289EE31E30861700784260 /* BaseModule */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -581,10 +771,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E701B121E25461200A041E1 /* .gitignore in Resources */,
-				0E701B101E25461200A041E1 /* .gitignore in Resources */,
+				0E289FB81E30E09300784260 /* .gitignore in Resources */,
+				0E289FB41E30E09300784260 /* .gitignore in Resources */,
+				0E289FAF1E30E09300784260 /* .gitignore in Resources */,
+				0E289FB31E30E09300784260 /* .gitignore in Resources */,
+				0E289FBD1E30E09300784260 /* .gitignore in Resources */,
+				0E289FBC1E30E09300784260 /* .gitignore in Resources */,
+				0E289FAE1E30E09300784260 /* .gitignore in Resources */,
 				2DE9BC91D6B19F75D5890F12 /* LaunchScreen.xib in Resources */,
-				0E701B0F1E25461200A041E1 /* .gitignore in Resources */,
+				0E289EFC1E30861700784260 /* .gitignore in Resources */,
+				0E289FB21E30E09300784260 /* .gitignore in Resources */,
+				0E289FB71E30E09300784260 /* .gitignore in Resources */,
 				0FE8AF94182C5304346BCBAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -731,25 +928,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E333BE61E1A50B8001A2496 /* MWPBaseListViewController.m in Sources */,
-				0E289EDF1E2F98E400784260 /* MWPBaseFixedViewModel.m in Sources */,
-				0E701B151E25461200A041E1 /* ProductListViewModel.m in Sources */,
+				0E289FB51E30E09300784260 /* MWPBasePlainListViewController.m in Sources */,
 				E35DB2756C61C4E5F2B077E6 /* main.m in Sources */,
 				0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */,
+				0E289EFE1E30861700784260 /* MWPBaseModel.m in Sources */,
 				0E1ADEAE1E2144DE007EEACD /* MWPToast.m in Sources */,
-				0E333BE31E1A5085001A2496 /* MWPBaseViewController.m in Sources */,
-				0E333BDD1E19047D001A2496 /* MWPBaseListViewModel.m in Sources */,
-				0E701B141E25461200A041E1 /* ProductListViewController.m in Sources */,
+				0E289FBF1E30E09300784260 /* ProductCell.m in Sources */,
+				0E289FBE1E30E09300784260 /* ProductModel.m in Sources */,
 				0E26F3971E065FE6000780D0 /* MWPCookie.m in Sources */,
+				0E289F031E30861700784260 /* MWPBaseViewController.m in Sources */,
+				0E289F761E30DD3300784260 /* MWPBaseCell.m in Sources */,
+				0E289FB61E30E09300784260 /* MWPBasePlainListViewModel.m in Sources */,
+				0E289F071E30861700784260 /* MWPBaseViewModel.m in Sources */,
+				0E289FB91E30E09300784260 /* FixedListCell1.m in Sources */,
+				0E289FC11E30E09300784260 /* ProductListViewModel.m in Sources */,
+				0E289FBB1E30E09300784260 /* FixedPlainListViewModel.m in Sources */,
 				0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */,
-				0E333BE01E1952A4001A2496 /* MWPBaseModel.m in Sources */,
-				0E333BC11E18F156001A2496 /* MWPBaseViewModel.m in Sources */,
+				0E289FBA1E30E09300784260 /* FixedPlainListViewController.m in Sources */,
 				0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */,
-				0E701B111E25461200A041E1 /* ProductModel.m in Sources */,
+				0E289FB01E30E09300784260 /* MWPBaseFixedPlainListViewController.m in Sources */,
+				0E289FC01E30E09300784260 /* ProductListViewController.m in Sources */,
 				0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */,
+				0E289FB11E30E09300784260 /* MWPBaseFixedPlainListViewModel.m in Sources */,
 				0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */,
 				55B281850F0E0F82118CE8AC /* AppDelegate.m in Sources */,
-				0E701B131E25461200A041E1 /* ProductCell.m in Sources */,
 				0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

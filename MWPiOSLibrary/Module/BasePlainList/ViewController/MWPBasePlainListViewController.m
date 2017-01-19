@@ -6,13 +6,13 @@
 //  Copyright © 2017年 lmule. All rights reserved.
 //
 
-#import "MWPBaseListViewController.h"
+#import "MWPBasePlainListViewController.h"
 
-@interface MWPBaseListViewController ()
+@interface MWPBasePlainListViewController ()
 
 @end
 
-@implementation MWPBaseListViewController
+@implementation MWPBasePlainListViewController
 
 #pragma mark ==== life cycle ====
 

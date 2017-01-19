@@ -6,11 +6,10 @@
 //  Copyright (c) 2015年 songhailiang. All rights reserved.
 //
 
-#import "MWPBaseListViewController.h"
+#import "MWPBaseFixedPlainListViewController.h"
 
-@interface ProductListViewController : MWPBaseListViewController
+@interface FixedPlainListViewController : MWPBaseFixedPlainListViewController
 
-@property (nonatomic, assign) BOOL start;
 
 @end
 

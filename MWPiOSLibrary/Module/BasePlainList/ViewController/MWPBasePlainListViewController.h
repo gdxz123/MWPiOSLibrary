@@ -9,7 +9,7 @@
 #import "MWPBaseViewController.h"
 #import "MJRefresh.h"
 
-@interface MWPBaseListViewController : MWPBaseViewController<UITableViewDelegate, UITableViewDataSource>
+@interface MWPBasePlainListViewController : MWPBaseViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 

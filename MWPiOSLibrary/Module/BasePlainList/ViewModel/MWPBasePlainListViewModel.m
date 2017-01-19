@@ -13,15 +13,15 @@ typedef NS_ENUM(NSUInteger, MWPListViewControllerCurrentPageAction) {
     MWPListViewControllerCurrentPageError
 };
 
-#import "MWPBaseListViewModel.h"
+#import "MWPBasePlainListViewModel.h"
 
-@interface MWPBaseListViewModel()
+@interface MWPBasePlainListViewModel()
 
 @property (nonatomic, assign) NSNumber *currentPage;
 
 @end
 
-@implementation MWPBaseListViewModel
+@implementation MWPBasePlainListViewModel
 
 - (instancetype)init {
     self = [super init];
