@@ -8,10 +8,6 @@
 
 #import "MWPBaseFixedPlainListViewModel.h"
 
-#define kMWPFixedListConfigDefaultIdentifier @"MWPBaseCell"
-
-#define kMWPFixedListConfigDefaultRowHeight 44
-
 
 @interface MWPBaseFixedPlainListViewModel()
 
@@ -50,9 +46,6 @@
     
     if (!defaultConfig[kMWPFixedListConfigIdentifier]) {
         defaultConfig[kMWPFixedListConfigIdentifier] = kMWPFixedListConfigDefaultIdentifier;
-    }
-    if (!defaultConfig[kMWPFixedListConfigRowHeight]) {
-        defaultConfig[kMWPFixedListConfigRowHeight] = @(kMWPFixedListConfigDefaultRowHeight);
     }
     
     for (NSUInteger i = 0; i < [itemsConfig count]; i++) {

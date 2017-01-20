@@ -7,18 +7,7 @@
 //
 
 #import "MWPBaseViewModel.h"
-
-#define kMWPFixedListConfigDefaultKey @"default"
-
-#define kMWPFixedListConfigItemsKey @"items"
-
-#define kMWPFixedListConfigIdentifier @"identifier"
-
-#define kMWPFixedListConfigRowHeight @"height"
-
-#define kMWPFixedListConfigTargetController @"target"
-
-#define kMWPFixedListConfigParam @"param"
+#import "MWPBaseFixedListMacro.h"
 
 @interface MWPBaseFixedPlainListViewModel : MWPBaseViewModel
 

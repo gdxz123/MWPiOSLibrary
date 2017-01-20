@@ -9,6 +9,7 @@
 #import "MWPRootUIService.h"
 #import "ProductListViewController.h"
 #import "FixedPlainListViewController.h"
+#import "FixedGroupedListViewController.h"
 
 @implementation MWPRootUIService
 
@@ -20,7 +21,8 @@ ML_EXPORT_SERVICE(MWPRootUIService)
     application.delegate.window = window;
     
 //    RAFNMainViewController* dvc = [[RAFNMainViewController alloc] init];
-    FixedPlainListViewController * dvc = [[FixedPlainListViewController alloc] init];
+    FixedGroupedListViewController * dvc = [[FixedGroupedListViewController alloc] init];
+//    FixedPlainListViewController * dvc = [[FixedPlainListViewController alloc] init];
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:dvc];
     window.rootViewController = nav;
     [window makeKeyAndVisible];

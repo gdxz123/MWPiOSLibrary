@@ -13,27 +13,32 @@
 		0E289EFE1E30861700784260 /* MWPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EE91E30861700784260 /* MWPBaseModel.m */; };
 		0E289F031E30861700784260 /* MWPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EF31E30861700784260 /* MWPBaseViewController.m */; };
 		0E289F071E30861700784260 /* MWPBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289EFB1E30861700784260 /* MWPBaseViewModel.m */; };
-		0E289F761E30DD3300784260 /* MWPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F751E30DD3300784260 /* MWPBaseCell.m */; };
-		0E289FAE1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F791E30E09300784260 /* .gitignore */; };
-		0E289FAF1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F7B1E30E09300784260 /* .gitignore */; };
-		0E289FB01E30E09300784260 /* MWPBaseFixedPlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F7F1E30E09300784260 /* MWPBaseFixedPlainListViewController.m */; };
-		0E289FB11E30E09300784260 /* MWPBaseFixedPlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F821E30E09300784260 /* MWPBaseFixedPlainListViewModel.m */; };
-		0E289FB21E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F851E30E09300784260 /* .gitignore */; };
-		0E289FB31E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F871E30E09300784260 /* .gitignore */; };
-		0E289FB41E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F891E30E09300784260 /* .gitignore */; };
-		0E289FB51E30E09300784260 /* MWPBasePlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F8C1E30E09300784260 /* MWPBasePlainListViewController.m */; };
-		0E289FB61E30E09300784260 /* MWPBasePlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F8F1E30E09300784260 /* MWPBasePlainListViewModel.m */; };
-		0E289FB71E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F921E30E09300784260 /* .gitignore */; };
-		0E289FB81E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289F941E30E09300784260 /* .gitignore */; };
-		0E289FB91E30E09300784260 /* FixedListCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F971E30E09300784260 /* FixedListCell1.m */; };
-		0E289FBA1E30E09300784260 /* FixedPlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F9A1E30E09300784260 /* FixedPlainListViewController.m */; };
-		0E289FBB1E30E09300784260 /* FixedPlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289F9D1E30E09300784260 /* FixedPlainListViewModel.m */; };
-		0E289FBC1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FA01E30E09300784260 /* .gitignore */; };
-		0E289FBD1E30E09300784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FA21E30E09300784260 /* .gitignore */; };
-		0E289FBE1E30E09300784260 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FA41E30E09300784260 /* ProductModel.m */; };
-		0E289FBF1E30E09300784260 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FA71E30E09300784260 /* ProductCell.m */; };
-		0E289FC01E30E09300784260 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FAA1E30E09300784260 /* ProductListViewController.m */; };
-		0E289FC11E30E09300784260 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FAD1E30E09300784260 /* ProductListViewModel.m */; };
+		0E289FFC1E30E52700784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FE91E30E52700784260 /* .gitignore */; };
+		0E289FFD1E30E52700784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FEB1E30E52700784260 /* .gitignore */; };
+		0E289FFE1E30E52700784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E289FED1E30E52700784260 /* .gitignore */; };
+		0E289FFF1E30E52700784260 /* MWPBasePlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FF01E30E52700784260 /* MWPBasePlainListViewController.m */; };
+		0E28A0001E30E52700784260 /* MWPBasePlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E289FF31E30E52700784260 /* MWPBasePlainListViewModel.m */; };
+		0E28A0151E30E67200784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E28A0041E30E67200784260 /* .gitignore */; };
+		0E28A0161E30E67200784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E28A0061E30E67200784260 /* .gitignore */; };
+		0E28A0171E30E67200784260 /* MWPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0091E30E67200784260 /* MWPBaseCell.m */; };
+		0E28A0181E30E67200784260 /* MWPBaseFixedGroupedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A00C1E30E67200784260 /* MWPBaseFixedGroupedListViewController.m */; };
+		0E28A0191E30E67200784260 /* MWPBaseFixedPlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A00E1E30E67200784260 /* MWPBaseFixedPlainListViewController.m */; };
+		0E28A01A1E30E67200784260 /* MWPBaseFixedGroupedListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0111E30E67200784260 /* MWPBaseFixedGroupedListViewModel.m */; };
+		0E28A01B1E30E67200784260 /* MWPBaseFixedPlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0141E30E67200784260 /* MWPBaseFixedPlainListViewModel.m */; };
+		0E28A02A1E30E6E400784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E28A01E1E30E6E400784260 /* .gitignore */; };
+		0E28A02B1E30E6E400784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E28A0201E30E6E400784260 /* .gitignore */; };
+		0E28A02C1E30E6E400784260 /* FixedListCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0231E30E6E400784260 /* FixedListCell1.m */; };
+		0E28A02D1E30E6E400784260 /* FixedPlainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0261E30E6E400784260 /* FixedPlainListViewController.m */; };
+		0E28A02E1E30E6E400784260 /* FixedPlainListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0291E30E6E400784260 /* FixedPlainListViewModel.m */; };
+		0E28A03F1E30E6FE00784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E28A0311E30E6FE00784260 /* .gitignore */; };
+		0E28A0401E30E6FE00784260 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0E28A0331E30E6FE00784260 /* .gitignore */; };
+		0E28A0411E30E6FE00784260 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0351E30E6FE00784260 /* ProductModel.m */; };
+		0E28A0421E30E6FE00784260 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0381E30E6FE00784260 /* ProductCell.m */; };
+		0E28A0431E30E6FE00784260 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A03B1E30E6FE00784260 /* ProductListViewController.m */; };
+		0E28A0441E30E6FE00784260 /* ProductListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A03E1E30E6FE00784260 /* ProductListViewModel.m */; };
+		0E28A0471E30E80400784260 /* FixedGroupedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0461E30E80400784260 /* FixedGroupedListViewController.m */; };
+		0E28A04A1E30E80B00784260 /* FixedGroupedListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A0491E30E80B00784260 /* FixedGroupedListViewModel.m */; };
+		0E28A04D1E30EB6F00784260 /* FixedListCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A04C1E30EB6F00784260 /* FixedListCell2.m */; };
 		0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAA1E07AB0E00BA9120 /* MWPLogService.m */; };
 		0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACAC1E07AB0E00BA9120 /* MWPRootUIService.m */; };
 		0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29ACB31E07B49800BA9120 /* MWPNetworkStatus.m */; };
@@ -75,39 +80,50 @@
 		0E289EF31E30861700784260 /* MWPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewController.m; sourceTree = "<group>"; };
 		0E289EFA1E30861700784260 /* MWPBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseViewModel.h; sourceTree = "<group>"; };
 		0E289EFB1E30861700784260 /* MWPBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseViewModel.m; sourceTree = "<group>"; };
-		0E289F741E30DD3300784260 /* MWPBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseCell.h; sourceTree = "<group>"; };
-		0E289F751E30DD3300784260 /* MWPBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseCell.m; sourceTree = "<group>"; };
-		0E289F791E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F7B1E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F7E1E30E09300784260 /* MWPBaseFixedPlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedPlainListViewController.h; sourceTree = "<group>"; };
-		0E289F7F1E30E09300784260 /* MWPBaseFixedPlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedPlainListViewController.m; sourceTree = "<group>"; };
-		0E289F811E30E09300784260 /* MWPBaseFixedPlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedPlainListViewModel.h; sourceTree = "<group>"; };
-		0E289F821E30E09300784260 /* MWPBaseFixedPlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedPlainListViewModel.m; sourceTree = "<group>"; };
-		0E289F851E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F871E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F891E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F8B1E30E09300784260 /* MWPBasePlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBasePlainListViewController.h; sourceTree = "<group>"; };
-		0E289F8C1E30E09300784260 /* MWPBasePlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBasePlainListViewController.m; sourceTree = "<group>"; };
-		0E289F8E1E30E09300784260 /* MWPBasePlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBasePlainListViewModel.h; sourceTree = "<group>"; };
-		0E289F8F1E30E09300784260 /* MWPBasePlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBasePlainListViewModel.m; sourceTree = "<group>"; };
-		0E289F921E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F941E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289F961E30E09300784260 /* FixedListCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedListCell1.h; sourceTree = "<group>"; };
-		0E289F971E30E09300784260 /* FixedListCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedListCell1.m; sourceTree = "<group>"; };
-		0E289F991E30E09300784260 /* FixedPlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPlainListViewController.h; sourceTree = "<group>"; };
-		0E289F9A1E30E09300784260 /* FixedPlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPlainListViewController.m; sourceTree = "<group>"; };
-		0E289F9C1E30E09300784260 /* FixedPlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPlainListViewModel.h; sourceTree = "<group>"; };
-		0E289F9D1E30E09300784260 /* FixedPlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPlainListViewModel.m; sourceTree = "<group>"; };
-		0E289FA01E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289FA21E30E09300784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0E289FA31E30E09300784260 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
-		0E289FA41E30E09300784260 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
-		0E289FA61E30E09300784260 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
-		0E289FA71E30E09300784260 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
-		0E289FA91E30E09300784260 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
-		0E289FAA1E30E09300784260 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
-		0E289FAC1E30E09300784260 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
-		0E289FAD1E30E09300784260 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
+		0E289FE91E30E52700784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289FEB1E30E52700784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289FED1E30E52700784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E289FEF1E30E52700784260 /* MWPBasePlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBasePlainListViewController.h; sourceTree = "<group>"; };
+		0E289FF01E30E52700784260 /* MWPBasePlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBasePlainListViewController.m; sourceTree = "<group>"; };
+		0E289FF21E30E52700784260 /* MWPBasePlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBasePlainListViewModel.h; sourceTree = "<group>"; };
+		0E289FF31E30E52700784260 /* MWPBasePlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBasePlainListViewModel.m; sourceTree = "<group>"; };
+		0E28A0041E30E67200784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E28A0061E30E67200784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E28A0081E30E67200784260 /* MWPBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseCell.h; sourceTree = "<group>"; };
+		0E28A0091E30E67200784260 /* MWPBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseCell.m; sourceTree = "<group>"; };
+		0E28A00B1E30E67200784260 /* MWPBaseFixedGroupedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedGroupedListViewController.h; sourceTree = "<group>"; };
+		0E28A00C1E30E67200784260 /* MWPBaseFixedGroupedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedGroupedListViewController.m; sourceTree = "<group>"; };
+		0E28A00D1E30E67200784260 /* MWPBaseFixedPlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedPlainListViewController.h; sourceTree = "<group>"; };
+		0E28A00E1E30E67200784260 /* MWPBaseFixedPlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedPlainListViewController.m; sourceTree = "<group>"; };
+		0E28A0101E30E67200784260 /* MWPBaseFixedGroupedListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedGroupedListViewModel.h; sourceTree = "<group>"; };
+		0E28A0111E30E67200784260 /* MWPBaseFixedGroupedListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedGroupedListViewModel.m; sourceTree = "<group>"; };
+		0E28A0121E30E67200784260 /* MWPBaseFixedListMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedListMacro.h; sourceTree = "<group>"; };
+		0E28A0131E30E67200784260 /* MWPBaseFixedPlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPBaseFixedPlainListViewModel.h; sourceTree = "<group>"; };
+		0E28A0141E30E67200784260 /* MWPBaseFixedPlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPBaseFixedPlainListViewModel.m; sourceTree = "<group>"; };
+		0E28A01E1E30E6E400784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E28A0201E30E6E400784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E28A0221E30E6E400784260 /* FixedListCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedListCell1.h; sourceTree = "<group>"; };
+		0E28A0231E30E6E400784260 /* FixedListCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedListCell1.m; sourceTree = "<group>"; };
+		0E28A0251E30E6E400784260 /* FixedPlainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPlainListViewController.h; sourceTree = "<group>"; };
+		0E28A0261E30E6E400784260 /* FixedPlainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPlainListViewController.m; sourceTree = "<group>"; };
+		0E28A0281E30E6E400784260 /* FixedPlainListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPlainListViewModel.h; sourceTree = "<group>"; };
+		0E28A0291E30E6E400784260 /* FixedPlainListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPlainListViewModel.m; sourceTree = "<group>"; };
+		0E28A0311E30E6FE00784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E28A0331E30E6FE00784260 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0E28A0341E30E6FE00784260 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		0E28A0351E30E6FE00784260 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		0E28A0371E30E6FE00784260 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		0E28A0381E30E6FE00784260 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		0E28A03A1E30E6FE00784260 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		0E28A03B1E30E6FE00784260 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		0E28A03D1E30E6FE00784260 /* ProductListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewModel.h; sourceTree = "<group>"; };
+		0E28A03E1E30E6FE00784260 /* ProductListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewModel.m; sourceTree = "<group>"; };
+		0E28A0451E30E80400784260 /* FixedGroupedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedGroupedListViewController.h; sourceTree = "<group>"; };
+		0E28A0461E30E80400784260 /* FixedGroupedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedGroupedListViewController.m; sourceTree = "<group>"; };
+		0E28A0481E30E80A00784260 /* FixedGroupedListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedGroupedListViewModel.h; sourceTree = "<group>"; };
+		0E28A0491E30E80B00784260 /* FixedGroupedListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedGroupedListViewModel.m; sourceTree = "<group>"; };
+		0E28A04B1E30EB6F00784260 /* FixedListCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedListCell2.h; sourceTree = "<group>"; };
+		0E28A04C1E30EB6F00784260 /* FixedListCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedListCell2.m; sourceTree = "<group>"; };
 		0E29ACA91E07AB0E00BA9120 /* MWPLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPLogService.h; sourceTree = "<group>"; };
 		0E29ACAA1E07AB0E00BA9120 /* MWPLogService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPLogService.m; sourceTree = "<group>"; };
 		0E29ACAB1E07AB0E00BA9120 /* MWPRootUIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPRootUIService.h; sourceTree = "<group>"; };
@@ -238,8 +254,6 @@
 		0E289EEA1E30861700784260 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F741E30DD3300784260 /* MWPBaseCell.h */,
-				0E289F751E30DD3300784260 /* MWPBaseCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,221 +276,234 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		0E289F771E30E09300784260 /* BaseFixedPlainList */ = {
+		0E289FE71E30E52700784260 /* BaseList */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F781E30E09300784260 /* DataManager */,
-				0E289F7A1E30E09300784260 /* Model */,
-				0E289F7C1E30E09300784260 /* View */,
-				0E289F7D1E30E09300784260 /* ViewController */,
-				0E289F801E30E09300784260 /* ViewModel */,
+				0E289FE81E30E52700784260 /* DataManager */,
+				0E289FEA1E30E52700784260 /* Model */,
+				0E289FEC1E30E52700784260 /* View */,
+				0E289FEE1E30E52700784260 /* ViewController */,
+				0E289FF11E30E52700784260 /* ViewModel */,
 			);
-			path = BaseFixedPlainList;
+			path = BaseList;
 			sourceTree = "<group>";
 		};
-		0E289F781E30E09300784260 /* DataManager */ = {
+		0E289FE81E30E52700784260 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F791E30E09300784260 /* .gitignore */,
+				0E289FE91E30E52700784260 /* .gitignore */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		0E289F7A1E30E09300784260 /* Model */ = {
+		0E289FEA1E30E52700784260 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F7B1E30E09300784260 /* .gitignore */,
+				0E289FEB1E30E52700784260 /* .gitignore */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E289F7C1E30E09300784260 /* View */ = {
+		0E289FEC1E30E52700784260 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0E289FED1E30E52700784260 /* .gitignore */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0E289F7D1E30E09300784260 /* ViewController */ = {
+		0E289FEE1E30E52700784260 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F7E1E30E09300784260 /* MWPBaseFixedPlainListViewController.h */,
-				0E289F7F1E30E09300784260 /* MWPBaseFixedPlainListViewController.m */,
+				0E289FEF1E30E52700784260 /* MWPBasePlainListViewController.h */,
+				0E289FF01E30E52700784260 /* MWPBasePlainListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		0E289F801E30E09300784260 /* ViewModel */ = {
+		0E289FF11E30E52700784260 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F811E30E09300784260 /* MWPBaseFixedPlainListViewModel.h */,
-				0E289F821E30E09300784260 /* MWPBaseFixedPlainListViewModel.m */,
+				0E289FF21E30E52700784260 /* MWPBasePlainListViewModel.h */,
+				0E289FF31E30E52700784260 /* MWPBasePlainListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		0E289F831E30E09300784260 /* BasePlainList */ = {
+		0E28A0021E30E67200784260 /* BaseFixedList */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F841E30E09300784260 /* DataManager */,
-				0E289F861E30E09300784260 /* Model */,
-				0E289F881E30E09300784260 /* View */,
-				0E289F8A1E30E09300784260 /* ViewController */,
-				0E289F8D1E30E09300784260 /* ViewModel */,
+				0E28A0031E30E67200784260 /* DataManager */,
+				0E28A0051E30E67200784260 /* Model */,
+				0E28A0071E30E67200784260 /* View */,
+				0E28A00A1E30E67200784260 /* ViewController */,
+				0E28A00F1E30E67200784260 /* ViewModel */,
 			);
-			path = BasePlainList;
+			path = BaseFixedList;
 			sourceTree = "<group>";
 		};
-		0E289F841E30E09300784260 /* DataManager */ = {
+		0E28A0031E30E67200784260 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F851E30E09300784260 /* .gitignore */,
+				0E28A0041E30E67200784260 /* .gitignore */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		0E289F861E30E09300784260 /* Model */ = {
+		0E28A0051E30E67200784260 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F871E30E09300784260 /* .gitignore */,
+				0E28A0061E30E67200784260 /* .gitignore */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E289F881E30E09300784260 /* View */ = {
+		0E28A0071E30E67200784260 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F891E30E09300784260 /* .gitignore */,
+				0E28A0081E30E67200784260 /* MWPBaseCell.h */,
+				0E28A0091E30E67200784260 /* MWPBaseCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0E289F8A1E30E09300784260 /* ViewController */ = {
+		0E28A00A1E30E67200784260 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F8B1E30E09300784260 /* MWPBasePlainListViewController.h */,
-				0E289F8C1E30E09300784260 /* MWPBasePlainListViewController.m */,
+				0E28A00B1E30E67200784260 /* MWPBaseFixedGroupedListViewController.h */,
+				0E28A00C1E30E67200784260 /* MWPBaseFixedGroupedListViewController.m */,
+				0E28A00D1E30E67200784260 /* MWPBaseFixedPlainListViewController.h */,
+				0E28A00E1E30E67200784260 /* MWPBaseFixedPlainListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		0E289F8D1E30E09300784260 /* ViewModel */ = {
+		0E28A00F1E30E67200784260 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F8E1E30E09300784260 /* MWPBasePlainListViewModel.h */,
-				0E289F8F1E30E09300784260 /* MWPBasePlainListViewModel.m */,
+				0E28A0101E30E67200784260 /* MWPBaseFixedGroupedListViewModel.h */,
+				0E28A0111E30E67200784260 /* MWPBaseFixedGroupedListViewModel.m */,
+				0E28A0121E30E67200784260 /* MWPBaseFixedListMacro.h */,
+				0E28A0131E30E67200784260 /* MWPBaseFixedPlainListViewModel.h */,
+				0E28A0141E30E67200784260 /* MWPBaseFixedPlainListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		0E289F901E30E09300784260 /* TestFixedPlainListViewController */ = {
+		0E28A01C1E30E6E400784260 /* TestFixedListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F911E30E09300784260 /* DataManager */,
-				0E289F931E30E09300784260 /* Model */,
-				0E289F951E30E09300784260 /* View */,
-				0E289F981E30E09300784260 /* ViewController */,
-				0E289F9B1E30E09300784260 /* ViewModel */,
+				0E28A01D1E30E6E400784260 /* DataManager */,
+				0E28A01F1E30E6E400784260 /* Model */,
+				0E28A0211E30E6E400784260 /* View */,
+				0E28A0241E30E6E400784260 /* ViewController */,
+				0E28A0271E30E6E400784260 /* ViewModel */,
 			);
-			path = TestFixedPlainListViewController;
+			path = TestFixedListViewController;
 			sourceTree = "<group>";
 		};
-		0E289F911E30E09300784260 /* DataManager */ = {
+		0E28A01D1E30E6E400784260 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F921E30E09300784260 /* .gitignore */,
+				0E28A01E1E30E6E400784260 /* .gitignore */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		0E289F931E30E09300784260 /* Model */ = {
+		0E28A01F1E30E6E400784260 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F941E30E09300784260 /* .gitignore */,
+				0E28A0201E30E6E400784260 /* .gitignore */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E289F951E30E09300784260 /* View */ = {
+		0E28A0211E30E6E400784260 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F961E30E09300784260 /* FixedListCell1.h */,
-				0E289F971E30E09300784260 /* FixedListCell1.m */,
+				0E28A0221E30E6E400784260 /* FixedListCell1.h */,
+				0E28A0231E30E6E400784260 /* FixedListCell1.m */,
+				0E28A04B1E30EB6F00784260 /* FixedListCell2.h */,
+				0E28A04C1E30EB6F00784260 /* FixedListCell2.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0E289F981E30E09300784260 /* ViewController */ = {
+		0E28A0241E30E6E400784260 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F991E30E09300784260 /* FixedPlainListViewController.h */,
-				0E289F9A1E30E09300784260 /* FixedPlainListViewController.m */,
+				0E28A0451E30E80400784260 /* FixedGroupedListViewController.h */,
+				0E28A0461E30E80400784260 /* FixedGroupedListViewController.m */,
+				0E28A0251E30E6E400784260 /* FixedPlainListViewController.h */,
+				0E28A0261E30E6E400784260 /* FixedPlainListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		0E289F9B1E30E09300784260 /* ViewModel */ = {
+		0E28A0271E30E6E400784260 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F9C1E30E09300784260 /* FixedPlainListViewModel.h */,
-				0E289F9D1E30E09300784260 /* FixedPlainListViewModel.m */,
+				0E28A0481E30E80A00784260 /* FixedGroupedListViewModel.h */,
+				0E28A0491E30E80B00784260 /* FixedGroupedListViewModel.m */,
+				0E28A0281E30E6E400784260 /* FixedPlainListViewModel.h */,
+				0E28A0291E30E6E400784260 /* FixedPlainListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		0E289F9E1E30E09300784260 /* TestPlainListViewController */ = {
+		0E28A02F1E30E6FE00784260 /* TestListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F9F1E30E09300784260 /* DataManager */,
-				0E289FA11E30E09300784260 /* Model */,
-				0E289FA51E30E09300784260 /* View */,
-				0E289FA81E30E09300784260 /* ViewController */,
-				0E289FAB1E30E09300784260 /* ViewModel */,
+				0E28A0301E30E6FE00784260 /* DataManager */,
+				0E28A0321E30E6FE00784260 /* Model */,
+				0E28A0361E30E6FE00784260 /* View */,
+				0E28A0391E30E6FE00784260 /* ViewController */,
+				0E28A03C1E30E6FE00784260 /* ViewModel */,
 			);
-			path = TestPlainListViewController;
+			path = TestListViewController;
 			sourceTree = "<group>";
 		};
-		0E289F9F1E30E09300784260 /* DataManager */ = {
+		0E28A0301E30E6FE00784260 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				0E289FA01E30E09300784260 /* .gitignore */,
+				0E28A0311E30E6FE00784260 /* .gitignore */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		0E289FA11E30E09300784260 /* Model */ = {
+		0E28A0321E30E6FE00784260 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E289FA21E30E09300784260 /* .gitignore */,
-				0E289FA31E30E09300784260 /* ProductModel.h */,
-				0E289FA41E30E09300784260 /* ProductModel.m */,
+				0E28A0331E30E6FE00784260 /* .gitignore */,
+				0E28A0341E30E6FE00784260 /* ProductModel.h */,
+				0E28A0351E30E6FE00784260 /* ProductModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E289FA51E30E09300784260 /* View */ = {
+		0E28A0361E30E6FE00784260 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E289FA61E30E09300784260 /* ProductCell.h */,
-				0E289FA71E30E09300784260 /* ProductCell.m */,
+				0E28A0371E30E6FE00784260 /* ProductCell.h */,
+				0E28A0381E30E6FE00784260 /* ProductCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0E289FA81E30E09300784260 /* ViewController */ = {
+		0E28A0391E30E6FE00784260 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0E289FA91E30E09300784260 /* ProductListViewController.h */,
-				0E289FAA1E30E09300784260 /* ProductListViewController.m */,
+				0E28A03A1E30E6FE00784260 /* ProductListViewController.h */,
+				0E28A03B1E30E6FE00784260 /* ProductListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		0E289FAB1E30E09300784260 /* ViewModel */ = {
+		0E28A03C1E30E6FE00784260 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0E289FAC1E30E09300784260 /* ProductListViewModel.h */,
-				0E289FAD1E30E09300784260 /* ProductListViewModel.m */,
+				0E28A03D1E30E6FE00784260 /* ProductListViewModel.h */,
+				0E28A03E1E30E6FE00784260 /* ProductListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -602,13 +629,13 @@
 		A6EE138E5F74EC0CF364283A /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				DF51C2A50172A8C5C7718BB7 /* MWPMacro.h */,
 				539135E9EE5A2011AFACF386 /* MWPApiMacro.h */,
-				941E41FB0E13E5365A8D09A3 /* MWPNotificationMacro.h */,
-				89017BAF769C5F1BD8E58718 /* MWPFontMacro.h */,
-				E123E88848EDA484EE8C75B2 /* MWPColorMacro.h */,
-				4D0AA6F02E5148416E328E30 /* MWPVendorMacro.h */,
 				0E95A0721E018A8B00CE6E66 /* MWPApplicationMacro.h */,
+				E123E88848EDA484EE8C75B2 /* MWPColorMacro.h */,
+				89017BAF769C5F1BD8E58718 /* MWPFontMacro.h */,
+				DF51C2A50172A8C5C7718BB7 /* MWPMacro.h */,
+				941E41FB0E13E5365A8D09A3 /* MWPNotificationMacro.h */,
+				4D0AA6F02E5148416E328E30 /* MWPVendorMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -677,10 +704,10 @@
 		EEA2CBC8BE0141AE9AF161F8 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				0E289F771E30E09300784260 /* BaseFixedPlainList */,
-				0E289F831E30E09300784260 /* BasePlainList */,
-				0E289F901E30E09300784260 /* TestFixedPlainListViewController */,
-				0E289F9E1E30E09300784260 /* TestPlainListViewController */,
+				0E28A02F1E30E6FE00784260 /* TestListViewController */,
+				0E28A01C1E30E6E400784260 /* TestFixedListViewController */,
+				0E28A0021E30E67200784260 /* BaseFixedList */,
+				0E289FE71E30E52700784260 /* BaseList */,
 				0E289EE31E30861700784260 /* BaseModule */,
 			);
 			path = Module;
@@ -771,17 +798,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E289FB81E30E09300784260 /* .gitignore in Resources */,
-				0E289FB41E30E09300784260 /* .gitignore in Resources */,
-				0E289FAF1E30E09300784260 /* .gitignore in Resources */,
-				0E289FB31E30E09300784260 /* .gitignore in Resources */,
-				0E289FBD1E30E09300784260 /* .gitignore in Resources */,
-				0E289FBC1E30E09300784260 /* .gitignore in Resources */,
-				0E289FAE1E30E09300784260 /* .gitignore in Resources */,
+				0E289FFD1E30E52700784260 /* .gitignore in Resources */,
+				0E289FFC1E30E52700784260 /* .gitignore in Resources */,
+				0E28A0161E30E67200784260 /* .gitignore in Resources */,
+				0E28A02B1E30E6E400784260 /* .gitignore in Resources */,
+				0E28A0401E30E6FE00784260 /* .gitignore in Resources */,
+				0E28A03F1E30E6FE00784260 /* .gitignore in Resources */,
+				0E28A02A1E30E6E400784260 /* .gitignore in Resources */,
+				0E28A0151E30E67200784260 /* .gitignore in Resources */,
 				2DE9BC91D6B19F75D5890F12 /* LaunchScreen.xib in Resources */,
 				0E289EFC1E30861700784260 /* .gitignore in Resources */,
-				0E289FB21E30E09300784260 /* .gitignore in Resources */,
-				0E289FB71E30E09300784260 /* .gitignore in Resources */,
+				0E289FFE1E30E52700784260 /* .gitignore in Resources */,
 				0FE8AF94182C5304346BCBAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -928,29 +955,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E289FB51E30E09300784260 /* MWPBasePlainListViewController.m in Sources */,
 				E35DB2756C61C4E5F2B077E6 /* main.m in Sources */,
 				0E29ACB41E07B49800BA9120 /* MWPNetworkStatus.m in Sources */,
+				0E28A0441E30E6FE00784260 /* ProductListViewModel.m in Sources */,
+				0E28A0181E30E67200784260 /* MWPBaseFixedGroupedListViewController.m in Sources */,
 				0E289EFE1E30861700784260 /* MWPBaseModel.m in Sources */,
 				0E1ADEAE1E2144DE007EEACD /* MWPToast.m in Sources */,
-				0E289FBF1E30E09300784260 /* ProductCell.m in Sources */,
-				0E289FBE1E30E09300784260 /* ProductModel.m in Sources */,
+				0E28A02E1E30E6E400784260 /* FixedPlainListViewModel.m in Sources */,
+				0E28A02C1E30E6E400784260 /* FixedListCell1.m in Sources */,
 				0E26F3971E065FE6000780D0 /* MWPCookie.m in Sources */,
 				0E289F031E30861700784260 /* MWPBaseViewController.m in Sources */,
-				0E289F761E30DD3300784260 /* MWPBaseCell.m in Sources */,
-				0E289FB61E30E09300784260 /* MWPBasePlainListViewModel.m in Sources */,
 				0E289F071E30861700784260 /* MWPBaseViewModel.m in Sources */,
-				0E289FB91E30E09300784260 /* FixedListCell1.m in Sources */,
-				0E289FC11E30E09300784260 /* ProductListViewModel.m in Sources */,
-				0E289FBB1E30E09300784260 /* FixedPlainListViewModel.m in Sources */,
+				0E28A0421E30E6FE00784260 /* ProductCell.m in Sources */,
+				0E28A0191E30E67200784260 /* MWPBaseFixedPlainListViewController.m in Sources */,
+				0E28A01B1E30E67200784260 /* MWPBaseFixedPlainListViewModel.m in Sources */,
+				0E289FFF1E30E52700784260 /* MWPBasePlainListViewController.m in Sources */,
+				0E28A04D1E30EB6F00784260 /* FixedListCell2.m in Sources */,
+				0E28A02D1E30E6E400784260 /* FixedPlainListViewController.m in Sources */,
+				0E28A0001E30E52700784260 /* MWPBasePlainListViewModel.m in Sources */,
+				0E28A0431E30E6FE00784260 /* ProductListViewController.m in Sources */,
+				0E28A01A1E30E67200784260 /* MWPBaseFixedGroupedListViewModel.m in Sources */,
 				0E29ACAD1E07AB0E00BA9120 /* MWPLogService.m in Sources */,
-				0E289FBA1E30E09300784260 /* FixedPlainListViewController.m in Sources */,
+				0E28A0471E30E80400784260 /* FixedGroupedListViewController.m in Sources */,
 				0E64C3A51E0D0C3900DE7A98 /* MWPNetwork.m in Sources */,
-				0E289FB01E30E09300784260 /* MWPBaseFixedPlainListViewController.m in Sources */,
-				0E289FC01E30E09300784260 /* ProductListViewController.m in Sources */,
+				0E28A04A1E30E80B00784260 /* FixedGroupedListViewModel.m in Sources */,
 				0E29ACAE1E07AB0E00BA9120 /* MWPRootUIService.m in Sources */,
-				0E289FB11E30E09300784260 /* MWPBaseFixedPlainListViewModel.m in Sources */,
+				0E28A0411E30E6FE00784260 /* ProductModel.m in Sources */,
 				0E95A07B1E02323C00CE6E66 /* MWPDDLogFormatter.m in Sources */,
+				0E28A0171E30E67200784260 /* MWPBaseCell.m in Sources */,
 				55B281850F0E0F82118CE8AC /* AppDelegate.m in Sources */,
 				0E29ACB71E07C39600BA9120 /* MWPNetworkService.m in Sources */,
 			);

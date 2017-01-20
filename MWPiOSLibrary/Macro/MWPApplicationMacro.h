@@ -55,6 +55,15 @@ instance = [[self alloc] init]; \
 return instance; \
 }
 
+//消除"performSelector may cause a leak because its selector is unknown"这个warning，其实还有别的解决办法
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
 #pragma mark ==== 日志相关 ====
 
 //指定调试级别

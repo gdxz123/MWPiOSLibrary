@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 songhailiang. All rights reserved.
 //
 
-#import "FixedPlainListViewModel.h"
+#import "FixedGroupedListViewModel.h"
 
-@interface FixedPlainListViewModel ()
+@interface FixedGroupedListViewModel ()
 
 @end
 
-@implementation FixedPlainListViewModel
+@implementation FixedGroupedListViewModel
 
 #pragma mark ==== life cycle ====
 
@@ -26,15 +26,27 @@
 - (NSDictionary *)getDataItemsConfiguration {
     return @{
              kMWPFixedListConfigDefaultKey:@{
-                     
+                     kMWPFixedListConfigIdentifier  :@"FixedListCell2"
                      },
              kMWPFixedListConfigItemsKey:@[
+                     @[
                      @{
-                   kMWPFixedListConfigIdentifier  :@"FixedListCell1"
+                         kMWPFixedListConfigIdentifier  :@"FixedListCell1",
+                         kMWPFixedListConfigParam : @{@"a" : @1},
                      },
                      @{
-                         kMWPFixedListConfigIdentifier  :@"FixedListCell1"
+                         
+                         },
+                     @{
+                         
+                         },
+                     @{
+                         
+                         },
+                     @{
+                         
                          }
+                     ]
                      ]
              };
 }

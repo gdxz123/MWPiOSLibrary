@@ -1,5 +1,5 @@
 //
-//  MWPBaseCell.m
+//  FixedListCell2.h
 //  MWPiOSLibrary
 //
 //  Created by dingrui on 2017/1/19.
@@ -8,7 +8,6 @@
 
 #import "MWPBaseCell.h"
 
-@implementation MWPBaseCell
-
+@interface FixedListCell2 : MWPBaseCell
 
 @end
