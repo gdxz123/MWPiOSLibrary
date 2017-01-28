@@ -7,6 +7,7 @@
 //
 
 #import "MWPBaseFixedGroupedListViewController.h"
+#import "ReactiveCocoa.h"
 
 @interface MWPBaseFixedGroupedListViewController ()
 
@@ -27,6 +28,7 @@
     .leftEqualToView(self.view)
     .rightEqualToView(self.view)
     .bottomEqualToView(self.view);
+
 }
 
 #pragma mark ==== public method ====
@@ -44,6 +46,10 @@
             classDictionary[identifier] = @"1";
         }
     }
+    
+    [RACObserve(self.viewModel, dataItems) subscribeNext:^(id x) {
+        [self.tableView reloadData];
+    }];
 }
 
 #pragma mark ==== uitableview datasource ====
@@ -57,25 +63,26 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    MWPBaseCell *cell = [self.viewModel getCellByIndexPath:indexPath];
-    return cell.rowHeight;
+    return [self getCellHeightByIndexPath:indexPath];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [self.viewModel getCellByIndexPath:indexPath];
+    return [self getCellByIndexPath:indexPath];
 }
 
 #pragma mark ==== uitableview delegate ====
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    MWPBaseCell *cell = [self.viewModel getCellByIndexPath:indexPath];
-    if ([cell.target isKindOfClass:[NSString class]]) {
-        Class targetClass = NSClassFromString(cell.target);
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    MWPBaseCell *cell = [self getCellByIndexPath:indexPath];
+
+    if ([cell.targetViewController isKindOfClass:[NSString class]]) {
+        Class targetClass = NSClassFromString(cell.targetViewController);
         UIViewController *targetViewController = [[targetClass alloc]init];
         [self.navigationController pushViewController:targetViewController animated:YES];
     }
-    else if ([cell respondsToSelector:NSSelectorFromString(kMWPFixedListConfigTarget)]) {
-        SuppressPerformSelectorLeakWarning([cell performSelector:NSSelectorFromString(kMWPFixedListConfigTarget)]);
+    else if (cell.targetBlock) {
+        cell.targetBlock();
     }
 }
 
@@ -86,7 +93,7 @@
         return _tableView;
     }
     
-    _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+    _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
     _tableView.dataSource = self;
     _tableView.delegate = self;
     //去掉多余的cell分割线
@@ -98,9 +105,43 @@
 
 - (void)setupView {
     [self.view addSubview:self.tableView];
-    [RACObserve(self.viewModel, dataItems) subscribeNext:^(id x) {
-        [self.tableView reloadData];
-    }];
+}
+
+- (CGFloat)getCellHeightByIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *dataItemDictionary = self.viewModel.dataItems[(NSUInteger)indexPath.section][(NSUInteger)indexPath.row];
+    if (dataItemDictionary[kMWPFixedListConfigRowHeight]) {
+        return [dataItemDictionary[kMWPFixedListConfigRowHeight] floatValue];
+    }
+    MWPBaseCell *cell = [NSClassFromString(dataItemDictionary[kMWPFixedListConfigIdentifier]) new];
+    SEL rowHeightSelector = NSSelectorFromString(kMWPFixedListConfigRowHeight);
+    if ([cell respondsToSelector:rowHeightSelector]) {
+        SuppressPerformSelectorLeakWarning(return [[cell performSelector:rowHeightSelector] floatValue];);
+    }
+    return kMWPFixedListConfigDefaultRowHeight;
+}
+
+- (MWPBaseCell *)getCellByIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *dataItemDictionary = self.viewModel.dataItems[(NSUInteger)indexPath.section][(NSUInteger)indexPath.row];
+    MWPBaseCell *cell = [self.tableView dequeueReusableCellWithIdentifier:dataItemDictionary[kMWPFixedListConfigIdentifier] forIndexPath:indexPath];
+    cell.dataItemConfig = dataItemDictionary;
+    
+    SEL rowHeightSelector = NSSelectorFromString(kMWPFixedListConfigRowHeight);
+    CGFloat rowHeight = 0;
+    if (dataItemDictionary[kMWPFixedListConfigRowHeight]) {
+        rowHeight = [dataItemDictionary[kMWPFixedListConfigRowHeight] floatValue];
+    }
+    else if ([cell respondsToSelector:rowHeightSelector]) {
+        SuppressPerformSelectorLeakWarning(rowHeight = [[cell performSelector:rowHeightSelector] floatValue];);
+    }
+    cell.rowHeight = rowHeight;
+    
+    if (dataItemDictionary[kMWPFixedListConfigTargetViewController]) {
+        cell.targetViewController = dataItemDictionary[kMWPFixedListConfigTargetViewController];
+    }
+    if (dataItemDictionary[kMWPFixedListConfigTargetBlock]) {
+        cell.targetBlock = dataItemDictionary[kMWPFixedListConfigTargetBlock];
+    }
+    return cell;
 }
 
 @end

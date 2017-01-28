@@ -14,9 +14,15 @@
 
 #define kMWPFixedListConfigRowHeight @"rowHeight"
 
-#define kMWPFixedListConfigTarget @"target"
+#define kMWPFixedListConfigTargetViewController @"targetViewController"
+
+#define kMWPFixedListConfigTargetBlock @"targetBlock"
 
 #define kMWPFixedListConfigParam @"param"
+
+#define kMWPFixedListConfigLeftText @"leftText"
+
+#define kMWPFixedListConfigRightText @"rightText"
 
 #define kMWPFixedListConfigDefaultIdentifier @"MWPBaseCell"
 

@@ -16,12 +16,4 @@
 
 - (instancetype)initWithDataItems:(NSDictionary *)dataItems;
 
-/**
- 在tableview中使用的时候，通过indexPath获取MWPBaseCell
-
- @param indexPath indexPath
- @return MWPBaseCell
- */
-- (MWPBaseCell *)getCellByIndexPath:(NSIndexPath *)indexPath;
-
 @end

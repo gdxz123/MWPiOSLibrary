@@ -26,11 +26,6 @@
 
 #pragma mark ==== public method ====
 
-- (MWPBaseCell *)getCellByIndexPath:(NSIndexPath *)indexPath {
-    NSDictionary *dataItemDictionary = self.dataItems[(NSUInteger)indexPath.section][(NSUInteger)indexPath.row];
-    return [MWPBaseCell setupWithDataItem:dataItemDictionary];
-}
-
 #pragma mark ==== private method ====
 
 - (void)setupConfig:(NSDictionary *)dataItems {
@@ -38,8 +33,9 @@
     NSMutableDictionary *defaultConfig = [dataItems[kMWPFixedListConfigDefaultKey] mutableCopy];
     NSArray *itemsConfig = dataItems[kMWPFixedListConfigItemsKey];
     if (!defaultConfig) {
-        self.dataItems = [itemsConfig mutableCopy];
-        return;
+        defaultConfig = [NSMutableDictionary dictionary];
+        defaultConfig[kMWPFixedListConfigIdentifier] = kMWPFixedListConfigDefaultIdentifier;
+        defaultConfig[kMWPFixedListConfigRowHeight] = @(kMWPFixedListConfigDefaultRowHeight);
     }
     
     //获取默认的identifier
@@ -48,7 +44,7 @@
     }
     //获取默认行高
     if (!defaultConfig[kMWPFixedListConfigRowHeight]) {
-        defaultConfig[kMWPFixedListConfigRowHeight] = @kMWPFixedListConfigDefaultRowHeight;
+        defaultConfig[kMWPFixedListConfigRowHeight] = @(kMWPFixedListConfigDefaultRowHeight);
     }
     
     for (NSUInteger i = 0; i < [itemsConfig count]; i++) {

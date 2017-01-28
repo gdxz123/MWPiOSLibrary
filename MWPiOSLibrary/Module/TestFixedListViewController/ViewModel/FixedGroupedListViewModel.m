@@ -26,7 +26,7 @@
 - (NSDictionary *)getDataItemsConfiguration {
     return @{
              kMWPFixedListConfigDefaultKey:@{
-                     kMWPFixedListConfigIdentifier  :@"FixedListCell2"
+                     kMWPFixedListConfigIdentifier  :@"MWPLeftRightNextCell"
                      },
              kMWPFixedListConfigItemsKey:@[
                      @[

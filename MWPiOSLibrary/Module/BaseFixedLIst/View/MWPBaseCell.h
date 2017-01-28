@@ -6,6 +6,8 @@
 //  Copyright © 2017年 lmule. All rights reserved.
 //
 
+typedef void(^TargetSelectBlock)();
+
 #import "MWPBaseFixedListMacro.h"
 
 /**
@@ -35,21 +37,25 @@
  */
 @property (nonatomic, strong) NSDictionary *dataItemConfig;
 
+/**
+ 需要额外传入的参数
+ */
+@property (nonatomic, strong) NSDictionary *paramConfig;
+
+/**
+ 行高
+ */
 @property (nonatomic, assign) CGFloat rowHeight;
 
 /**
- 如果是字符串，直接跳转到该ViewController
- 否则直接执行target里面block
+ 点击需要跳转到的ViewController
  */
-@property (nonatomic, strong) id target;
+@property (nonatomic, strong) NSString *targetViewController;
 
 /**
- 将字典配置转换成MWPBaseCell对象，方便外界使用
-
- @param dataItem 字典配置
- @return MWPBaseCell对象
+ 点击执行的block
  */
-+ (MWPBaseCell *)setupWithDataItem:(NSDictionary *)dataItem;
+@property (nonatomic, copy) TargetSelectBlock targetBlock;
 
 - (void)setupView;
 
